@@ -6,7 +6,26 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 13 Sep 2026 23:26:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 08:50:00 +0200</lastBuildDate>
+    <item>
+      <title>Local AI Daily Radar — 2026-09-14</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-14.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-14.html</guid>
+      <pubDate>Mon, 14 Sep 2026 08:50:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>5 istotnych tematów: llama.cpp dodaje fallback BF16→F32 z dużym wzrostem prefill na V100/SM70; szybszy natywny parser grammar; event-triggered cron w Hermes Agent; import Git skills w OpenViking; poprawiona semantyka TTL w llama-swap. Brak nowego lokalnego modelu multimodalnego ≤32 GB VRAM przechodzącego próg istotności.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-14.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category>
+      <category>LLAMA.CPP</category>
+      <category>CUDA</category>
+      <category>V100</category>
+      <category>SM70</category>
+      <category>HERMES</category>
+      <category>OPENVIKING</category>
+      <category>LLAMA-SWAP</category>
+      <category>SELF-HOSTING</category>
+    </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-13</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-13.html</link>
