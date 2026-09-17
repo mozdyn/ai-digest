@@ -6,7 +6,29 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 16 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 08:03:00 +0200</lastBuildDate>
+    <item>
+      <title>Local AI Daily Radar — 2026-09-17</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-17.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-17.html</guid>
+      <pubDate>Thu, 17 Sep 2026 08:03:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>5 tematów: llama.cpp naprawia tensor parallel + fused QKV dla Qwen3.6/Qwen3.8, unified KV lepiej dobiera kontekst pod multislot, CUDA Graph stabilizuje MTP, ik_llama optymalizuje QSA Qwen3.8-Next, a llama-swap ogranicza retained RAM puli zstd.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-17.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category>
+      <category>LLAMA.CPP</category>
+      <category>QWEN3.6</category>
+      <category>QWEN3.8</category>
+      <category>CUDA</category>
+      <category>V100</category>
+      <category>SM70</category>
+      <category>UNIFIED-KV</category>
+      <category>MTP</category>
+      <category>IK-LLAMA</category>
+      <category>LLAMA-SWAP</category>
+      <category>SELF-HOSTING</category>
+    </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-16</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-16.html</link>
@@ -16,17 +38,7 @@
         <p>5 tematów: llama.cpp naprawia runaway RPC cache, podnosi protokół RPC do v7 i aktualizuje Windows CUDA 13 do 13.4 przy zachowaniu ścieżki CUDA 12.x dla V100; Hermes Agent przyspiesza duże chat-completions; LM Studio Bionic 1.1.3 dodaje Linux/NVIDIA voice transcription i szersze MTP; ik_llama poprawia hybrid offload; OpenViking rozszerza ingest i naprawia przypadek snapshot/pathlock.</p>
         <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-16.html">Otwórz pełny raport</a></p>
       ]]></description>
-      <category>LOCAL-AI</category>
-      <category>LLAMA.CPP</category>
-      <category>CUDA</category>
-      <category>V100</category>
-      <category>SM70</category>
-      <category>RPC</category>
-      <category>HERMES</category>
-      <category>LM-STUDIO</category>
-      <category>IK-LLAMA</category>
-      <category>OPENVIKING</category>
-      <category>SELF-HOSTING</category>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>RPC</category><category>HERMES</category><category>LM-STUDIO</category><category>IK-LLAMA</category><category>OPENVIKING</category><category>SELF-HOSTING</category>
     </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-15</title>
@@ -37,16 +49,7 @@
         <p>5 tematów: llama.cpp 0.4.1 i nowe buildy Ubuntu CUDA z ważną granicą CUDA 12.x dla V100/SM70; zmiana workflow GGUF w Ollama; natywny YuE2 w audio.cpp; poprawki izolacji sekretów Hermes Agent; hardening grep w OpenViking.</p>
         <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-15.html">Otwórz pełny raport</a></p>
       ]]></description>
-      <category>LOCAL-AI</category>
-      <category>LLAMA.CPP</category>
-      <category>CUDA</category>
-      <category>V100</category>
-      <category>SM70</category>
-      <category>OLLAMA</category>
-      <category>AUDIO</category>
-      <category>HERMES</category>
-      <category>OPENVIKING</category>
-      <category>SELF-HOSTING</category>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>OLLAMA</category><category>AUDIO</category><category>HERMES</category><category>OPENVIKING</category><category>SELF-HOSTING</category>
     </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-14</title>
@@ -57,15 +60,7 @@
         <p>5 istotnych tematów: llama.cpp dodaje fallback BF16→F32 z dużym wzrostem prefill na V100/SM70; szybszy natywny parser grammar; event-triggered cron w Hermes Agent; import Git skills w OpenViking; poprawiona semantyka TTL w llama-swap. Brak nowego lokalnego modelu multimodalnego ≤32 GB VRAM przechodzącego próg istotności.</p>
         <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-14.html">Otwórz pełny raport</a></p>
       ]]></description>
-      <category>LOCAL-AI</category>
-      <category>LLAMA.CPP</category>
-      <category>CUDA</category>
-      <category>V100</category>
-      <category>SM70</category>
-      <category>HERMES</category>
-      <category>OPENVIKING</category>
-      <category>LLAMA-SWAP</category>
-      <category>SELF-HOSTING</category>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>HERMES</category><category>OPENVIKING</category><category>LLAMA-SWAP</category><category>SELF-HOSTING</category>
     </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-13</title>
@@ -76,12 +71,7 @@
         <p>4 istotne tematy z ostatnich 24 godzin: świeży klaster regresji Hermes Agent state.db/WAL, llama.cpp OpenCL quant correctness, poprawka loadera Nemotron-H/MTP oraz poprawki lokalnego pipeline'u vision w Hermes Agent. Brak świeżej zmiany CUDA/SM70 wymagającej reakcji i brak nowego modelu multimodalnego ≤32 GB VRAM przechodzącego próg istotności.</p>
         <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-13.html">Otwórz pełny raport</a></p>
       ]]></description>
-      <category>LOCAL-AI</category>
-      <category>LLAMA.CPP</category>
-      <category>HERMES</category>
-      <category>V100</category>
-      <category>SM70</category>
-      <category>SELF-HOSTING</category>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>HERMES</category><category>V100</category><category>SM70</category><category>SELF-HOSTING</category>
     </item>
   </channel>
 </rss>
