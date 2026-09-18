@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Local AI Daily Radar — 2026-09-18</title>
+<style>
+:root{--bg:#071019;--panel:#0d1824;--panel2:#101e2c;--text:#eef6ff;--muted:#9bacc0;--line:#24374a;--accent:#67d7ff;--good:#63e6a5;--watch:#ffd166;--risk:#ff7a90;--violet:#b9a2ff;--shadow:0 18px 50px rgba(0,0,0,.28)}
+html[data-theme="light"]{--bg:#f3f7fb;--panel:#fff;--panel2:#f7fbff;--text:#102031;--muted:#5c6c7d;--line:#cfdae5;--accent:#006d9c;--good:#087f51;--watch:#946500;--risk:#b4233d;--violet:#5f49b8;--shadow:0 14px 34px rgba(33,54,77,.10)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,var(--bg),color-mix(in srgb,var(--bg) 92%,#17324a));color:var(--text);font:15.5px/1.62 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent);text-underline-offset:3px}.wrap{max-width:1180px;margin:auto;padding:28px 18px 64px}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,color-mix(in srgb,var(--panel) 90%,#13314a),var(--panel));border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;right:-110px;top:-130px;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 18%,transparent),transparent 66%);pointer-events:none}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-weight:800;font-size:12px;color:var(--accent)}h1{font-size:clamp(30px,5vw,52px);line-height:1.05;margin:7px 0 12px}.lede{max-width:880px;margin:0;color:var(--muted);font-size:17px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.chip,.tag,.status{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:5px 9px;font-size:12px;font-weight:700;background:color-mix(in srgb,var(--panel2) 86%,transparent)}.controls{position:absolute;right:22px;top:20px;z-index:2}.toggle{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:8px 11px;cursor:pointer}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 0}.stat{background:color-mix(in srgb,var(--panel2) 88%,transparent);border:1px solid var(--line);border-radius:16px;padding:13px}.stat strong{display:block;font-size:24px;line-height:1.1}.stat span{color:var(--muted);font-size:12px}.watchline{margin:18px 0 0;padding:13px 15px;border:1px solid var(--line);border-left:4px solid var(--watch);border-radius:12px;background:color-mix(in srgb,var(--watch) 8%,var(--panel));color:var(--muted)}main{margin-top:18px}.card{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px;margin:14px 0;box-shadow:0 8px 28px rgba(0,0,0,.12)}.card h2{font-size:23px;line-height:1.25;margin:6px 0 12px}.num{color:var(--accent);font-weight:900}.row{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}.box{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:13px 14px}.box h3{font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 5px;color:var(--muted)}.box p{margin:0}.card p{margin:8px 0}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0}.status.test{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,var(--line))}.status.watch{color:var(--watch);border-color:color-mix(in srgb,var(--watch) 40%,var(--line))}.status.risk{color:var(--risk);border-color:color-mix(in srgb,var(--risk) 45%,var(--line))}.tag.v100{color:var(--violet)}.source{margin-top:13px;padding-top:12px;border-top:1px solid var(--line);font-size:13px}.todo,.scan{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px;margin-top:18px}.todo h2,.scan h2{margin:0 0 10px}.todo ol{margin:8px 0 0 22px;padding:0}.todo li{margin:7px 0}.muted{color:var(--muted)}code{font:0.92em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--panel2);border:1px solid var(--line);padding:1px 5px;border-radius:6px}footer{margin-top:20px;color:var(--muted);font-size:12px;text-align:center}@media(max-width:760px){.wrap{padding:14px 11px 38px}.hero,.card,.todo,.scan{border-radius:16px;padding:17px}.controls{position:static;margin-bottom:12px}.row{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.card h2{font-size:20px}}@media print{html[data-theme],body{background:#fff!important;color:#000!important}.wrap{max-width:none;padding:0}.controls{display:none}.hero,.card,.todo,.scan,.box,.stat{box-shadow:none!important;background:#fff!important;color:#000!important;border-color:#bbb!important;break-inside:avoid}.muted,.lede,.watchline{color:#333!important}a{color:#000!important;text-decoration:underline}.card{page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="controls"><button class="toggle" id="themeToggle" type="button" aria-label="Przełącz motyw">☀ / ☾</button></div>
+  <div class="eyebrow">Local AI Daily Radar</div>
+  <h1>18 września 2026</h1>
+  <p class="lede">Ostatnie 24 godziny: mocny dzień dla pamięci/cache i operacyjnego self-hostingu. Najbardziej praktyczne zmiany dotyczą Qwen/MTP w llama.cpp, kompakcji SWA bez round-trip przez RAM w ik_llama, wycieku pamięci KV przy speculative decoding w Ollama oraz uruchamiania llama-swap na Kubernetes.</p>
+  <div class="meta"><span class="chip">okno: 17.09 08:00 → 18.09 08:00 CEST</span><span class="chip">V100 32 GB PCIe / SM70</span><span class="chip">Qwen3.6 / Qwen3.8 watch</span><span class="chip">źródła pierwotne</span></div>
+  <div class="stats">
+    <div class="stat"><strong>8</strong><span>tematów ponad próg istotności</span></div>
+    <div class="stat"><strong>4</strong><span>cache / MoE / quant / TP</span></div>
+    <div class="stat"><strong>2</strong><span>szczególnie ciekawe dla PCIe/hybrid</span></div>
+    <div class="stat"><strong>0</strong><span>nowych multimodalnych ≤32 GB ponad próg</span></div>
+  </div>
+  <div class="watchline"><strong>Watchlist llama.cpp:</strong> w tym oknie nie ma nowego merge'a dotyczącego unified KV, RAM cache ani multislot. Nie pojawił się też nowy PR opisany wprost jako expert parallel. Aktywny jest natomiast draft tensor-parallel z NCCL dla RPC, z benchmarkiem Qwen3.8-27B; traktuję go jako obserwację, nie gotową funkcję.</div>
+</header>
+<main>
+<article class="card">
+  <div><span class="num">01</span> <span class="status test">warto testować</span></div>
+  <h2>llama.cpp: naprawa crasha qwen35moe przy fused <code>gate_up_exps</code> i wyłączonym MTP</h2>
+  <p><strong>Co się zmieniło:</strong> merged PR #29014 sprawia, że <code>gate_up_exps</code> jest pomijane, gdy tensor ma <code>TENSOR_SKIP</code>. Problem występował, gdy qwen35moe miał wyeksportowane MTP z <code>--fuse-gate-up-exps</code>, ale MTP nie było używane; wcześniej loader kończył się asercją <code>tensor_axis_0 != nullptr</code>.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> to mała zmiana kodu, ale usuwa konkretny crash w ścieżce MoE/MTP. Jest szczególnie ważna dla GGUF-ów, które zawierają fused tensors i są uruchamiane bez speculative/MTP.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Zmiana loadera jest backend-neutralna: nie wymaga Ampere ani nowych kerneli. Na V100 powinna być równie istotna funkcjonalnie, bez oczekiwanej zmiany wydajności.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Bezpośrednio dotyczy wewnętrznej architektury <code>qwen35moe</code>. Dla konkretnych Qwen3.6/3.8 wpływ jest istotny wtedy, gdy dany GGUF używa tego layoutu, fused gate/up experts i zawiera MTP.</p></div></div>
+  <div class="tags"><span class="tag">llama.cpp</span><span class="tag">MoE</span><span class="tag">MTP</span><span class="tag">fused experts</span><span class="tag">Qwen</span><span class="tag v100">SM70-safe</span></div>
+  <div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/pull/29014">PR #29014</a> · <a href="https://github.com/ggml-org/llama.cpp/commit/b49650adb31f2e49a0d76113aeb1792134fd8413">merge commit</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">02</span> <span class="status test">warto testować</span></div>
+  <h2>ik_llama.cpp: SWA compaction robi kopiowanie na urządzeniu zamiast GPU → RAM → GPU</h2>
+  <p><strong>Co się zmieniło:</strong> merged PR #2462 przenosi kompakcję cache SWA na urządzenie, gdy kopiowanie można wykonać w maksymalnie czterech krokach. Dotychczas wymagany był round-trip cache przez host RAM. Przy większej liczbie fragmentów pozostaje fallback przez host.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> w benchmarku Gemma4-31B z <code>--swa-compress</code> stara ścieżka traciła około 6% token-generation po wejściu kompakcji; nowa ścieżka odzyskiwała ten narzut, utrzymując około 42–45 t/s zamiast około 40–42 t/s w dalszej części sweepu.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>To jedna z ciekawszych zmian dnia dla V100 32 GB PCIe: unikanie transferu device↔host jest szczególnie atrakcyjne na PCIe. Nie ma jednak benchmarku na V100/SM70, więc zysk ~6% nie powinien być przenoszony 1:1.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Brak potwierdzonego bezpośredniego efektu dla Qwen3.6/3.8 w tym PR. Zysk dotyczy modeli i konfiguracji korzystających z kompresowanego sliding-window KV.</p></div></div>
+  <div class="tags"><span class="tag">ik_llama.cpp</span><span class="tag">KV cache</span><span class="tag">SWA</span><span class="tag">PCIe</span><span class="tag">device copy</span><span class="tag v100">V100-interest</span></div>
+  <div class="source">Źródło: <a href="https://github.com/ikawrakow/ik_llama.cpp/pull/2462">PR #2462</a> · <a href="https://github.com/ikawrakow/ik_llama.cpp/commit/ec6fb235d2cc3ab7fda5fc462aa4ca73a1bdb069">merge commit</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">03</span> <span class="status test">warto testować</span></div>
+  <h2>Ollama/MLX: speculative decoding nie zostawia już gigabajtów zwolnionych buforów KV</h2>
+  <p><strong>Co się zmieniło:</strong> MLX runner czyści pulę zwolnionych buforów po przekroczeniu granicy 256 wygenerowanych tokenów, a nie tylko wtedy, gdy licznik trafi dokładnie w wielokrotność 256. Speculative decoding generuje kilka tokenów na rundę i często przeskakiwał te granice.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> na <code>qwen3.8:27b-mlx</code> z kontekstem 98k na maszynie 128 GB pamięć procesu wcześniej rosła ponad 90 GB i kończyła się panicą kernela; po poprawce pozostawała płaska w okolicy 30 GB.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Brak wpływu: poprawka dotyczy MLX/Apple, nie CUDA. Mechanizm jest jednak dobrym sygnałem do obserwowania podobnych progów zwalniania cache w innych runtime'ach.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Bezpośredni test na Qwen3.8 27B MLX. Dla Qwen3.6 analogiczny efekt jest możliwy w tej samej ścieżce MLX/speculative, ale nie został pokazany w commicie.</p></div></div>
+  <div class="tags"><span class="tag">Ollama</span><span class="tag">MLX</span><span class="tag">Qwen3.8</span><span class="tag">KV cache</span><span class="tag">speculative decoding</span><span class="tag">memory leak</span></div>
+  <div class="source">Źródło: <a href="https://github.com/ollama/ollama/commit/ec3cc23076c489c988e4e8a85659e48e92dbb734">commit ec3cc23</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">04</span> <span class="status test">warto testować</span></div>
+  <h2>ik_llama.cpp: 11 brakujących konwerterów repacked IQ* przyspiesza prefill</h2>
+  <p><strong>Co się zmieniło:</strong> dodano konwertery prefill dla repacked <code>IQ2_XXS</code>, <code>IQ2_XS</code>, <code>IQ2_K</code>, <code>IQ2_S</code>, <code>IQ3_XXS</code>, <code>IQ3_S</code>, <code>IQ3_K</code>, <code>IQ4_K</code>, <code>IQ4_KS</code>, <code>IQ5_K</code> i <code>IQ5_KS</code>. Autor podaje, że <code>pp512</code> wraca do poziomu odpowiadających im quantów nierepacked.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> repacked quants miały słabszą ścieżkę prompt processing mimo korzyści w innych fragmentach inferencji. To usuwa asymetrię, która szczególnie boli przy długich promptach i dużych ubatchach.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Brak bezpośredniego benchmarku V100. Najbardziej prawdopodobny zysk w konfiguracji hybrid/CPU-offload, gdy host bierze udział w prefill; nie należy zakładać wzrostu czysto CUDA.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Model-agnostic. Ma znaczenie dla Qwen3.6/3.8 tylko wtedy, gdy używany build/GGUF faktycznie korzysta z tych repacked IQ quantów.</p></div></div>
+  <div class="tags"><span class="tag">ik_llama.cpp</span><span class="tag">quantization</span><span class="tag">IQ*</span><span class="tag">prefill</span><span class="tag">hybrid</span><span class="tag v100">V100-indirect</span></div>
+  <div class="source">Źródło: <a href="https://github.com/ikawrakow/ik_llama.cpp/commit/dc31024448b8f18eac0cd5c2e200b6c7e015ef7a">commit dc31024 / PR #2474</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">05</span> <span class="status watch">obserwować</span></div>
+  <h2>llama.cpp watch: draft NCCL dla tensor parallel/RPC jest aktywny i ma mocny benchmark Qwen3.8</h2>
+  <p><strong>Co się zmieniło:</strong> PR #28967 był aktywnie aktualizowany/reviewowany w oknie raportu. Dodaje interfejs kolektywów między rankami, implementację CUDA/NCCL i użycie przez RPC. To nadal draft oparty na innym PR; ostatni commit kodu preceduje dokładne 24-godzinne okno, więc nie traktuję go jako merge dnia.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> na dwóch DGX Sparkach z Qwen3.8-27B Q4_K_M autor raportuje względem pojedynczego node około <strong>1.59×</strong> dla pp512 i <strong>1.81×</strong> dla tg128 z NCCL; pairwise bez NCCL daje odpowiednio około 1.14× i 1.72×.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Dla pojedynczej V100 32 GB brak korzyści. Dla wielu V100/NCCL kierunek jest technicznie interesujący, ale test wykonano na DGX Spark, nie Volcie; PCIe/topologia może zasadniczo zmienić skalowanie.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Benchmark jest bezpośrednio na Qwen3.8-27B. Qwen3.6 nie był pokazany. To tensor parallel, nie expert parallel — brak nowego upstreamowego expert-parallel merge'a w tym oknie.</p></div></div>
+  <div class="tags"><span class="tag">llama.cpp</span><span class="tag">tensor parallel</span><span class="tag">NCCL</span><span class="tag">RPC</span><span class="tag">Qwen3.8</span><span class="tag v100">multi-GPU watch</span></div>
+  <div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/pull/28967">draft PR #28967</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">06</span> <span class="status test">warto testować</span></div>
+  <h2>llama-swap: nowy <code>kubeswap</code> zarządza backendami inference w Kubernetes bez CRD</h2>
+  <p><strong>Co się zmieniło:</strong> dodano wrapper i Helm chart. Model może uruchamiać <code>kubeswap serve</code>, który tworzy lub adoptuje Deployment, Service i opcjonalne PVC, wystawia lokalny proxy port i raportuje readiness. <code>kubeswap delete</code> czeka na zakończenie podów, czyli faktyczne zwolnienie GPU, a <code>gc</code> sprząta osierocone zasoby.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> zachowuje dotychczasowe routery, TTL, unloading, preload, eviction i reload konfiguracji llama-swap, a jednocześnie przenosi lifecycle modeli do K8s. Autorzy testowali llama-server, sd-server, whisper-server i audiocpp_server.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Brak zmiany kerneli. Dla homelabu z V100 wartość jest operacyjna: kontrolowane zwalnianie podów/GPU i możliwość użycia tego samego model-swap layer w klastrze.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Model-agnostic. Może zarządzać backendem z Qwen3.6/3.8, ale nie zmienia jego wydajności ani pamięci.</p></div></div>
+  <div class="tags"><span class="tag">llama-swap</span><span class="tag">Kubernetes</span><span class="tag">Helm</span><span class="tag">GPU lifecycle</span><span class="tag">self-hosting</span></div>
+  <div class="source">Źródło: <a href="https://github.com/mostlygeek/llama-swap/commit/c5753ce764595f8fe1ef77c45cb0ff80ae28d005">commit c5753ce / PR #1114</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">07</span> <span class="status test">warto testować</span></div>
+  <h2>Hermes Agent: wznowione sesje llama.cpp trafiają na aktualny port managed runtime</h2>
+  <p><strong>Co się zmieniło:</strong> Hermes przestał ufać zapisanemu w sesji loopback URL dla zarządzanego llama.cpp. Po restarcie supervisor może przejść na port awaryjny/ephemeral, a stara sesja wcześniej próbowała połączyć się z martwym endpointem. Fix działa w CLI, TUI i gatewayu, przy zachowaniu jawnego <code>--base-url</code>.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> usuwa trudną do diagnozowania klasę błędów „session resume → connection refused” w w pełni lokalnym agencie korzystającym z managed llama.cpp.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Brak wpływu na CUDA; poprawa niezawodności warstwy orchestration.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Model-agnostic. Istotne, jeśli Qwen jest serwowany przez zarządzany llama.cpp w Hermesie.</p></div></div>
+  <div class="tags"><span class="tag">Hermes Agent</span><span class="tag">llama.cpp</span><span class="tag">local runtime</span><span class="tag">session resume</span><span class="tag">self-hosting</span></div>
+  <div class="source">Źródło: <a href="https://github.com/NousResearch/hermes-agent/commit/1792e8bf5ff7df53452af3771c78d243a7b16b5f">commit 1792e8b / PR #114336</a></div>
+</article>
+
+<article class="card">
+  <div><span class="num">08</span> <span class="status test">warto testować</span></div>
+  <h2>OpenViking + Ollama: <code>num_ctx</code> wreszcie trafia do właściwego pola i nie zostaje na 4096</h2>
+  <p><strong>Co się zmieniło:</strong> OpenViking przekazuje teraz <code>num_ctx</code> do LiteLLM jako argument mapowany do <code>options.num_ctx</code> Ollamy. Wcześniej wartość była wkładana do <code>extra_body</code>, co dla tras Ollama kończyło się nieznanym polem i pozostawieniem domyślnego kontekstu 4096.</p>
+  <p><strong>Dlaczego ma znaczenie:</strong> długie prompty ekstrakcyjne były w praktyce ucinane do około 2050 tokenów mimo skonfigurowanego większego kontekstu. To konkretna poprawa jakości lokalnego pipeline'u pamięć/VLM/ekstrakcja.</p>
+  <div class="row"><div class="box"><h3>V100 / SM70</h3><p>Brak zmiany kerneli. Większy realny kontekst oznacza za to większy KV cache, więc na 32 GB VRAM warto ponownie sprawdzić budżet pamięci i ewentualny offload.</p></div><div class="box"><h3>Qwen3.6 / Qwen3.8</h3><p>Pośrednio istotne dla każdego Qwen serwowanego przez Ollamę: OpenViking zacznie faktycznie używać ustawionego kontekstu zamiast 4096. Wzrost pamięci zależy od modelu i typu KV.</p></div></div>
+  <div class="tags"><span class="tag">OpenViking</span><span class="tag">Ollama</span><span class="tag">num_ctx</span><span class="tag">long context</span><span class="tag">KV budget</span></div>
+  <div class="source">Źródło: <a href="https://github.com/volcengine/OpenViking/commit/95564021e0c4b280cf1f54c0886425147b30f66b">commit 9556402 / PR #5033</a></div>
+</article>
+</main>
+
+<section class="todo">
+<h2>Dzisiaj warto zrobić</h2>
+<ol>
+<li><strong>Qwen MoE/MTP:</strong> jeśli masz GGUF qwen35moe z fused experts, zbuduj świeży llama.cpp i wykonaj test startu zarówno z MTP, jak i bez MTP — fix #29014 dotyczy dokładnie różnicy między tymi ścieżkami.</li>
+<li><strong>V100 32 GB PCIe:</strong> jeśli korzystasz z ik_llama i SWA, porównaj build przed/po #2462 na dłuższym kontekście. Mierz osobno TG przed pierwszą kompakcją i po niej oraz transfer host↔device; to najciekawszy dzisiejszy kandydat na realny zysk na PCIe.</li>
+<li><strong>Hybrid / repacked quants:</strong> dla IQ2/IQ3/IQ4/IQ5 repacked zmierz <code>pp512</code>/<code>pp2048</code> po #2474. Zysk powinien być widoczny głównie w prefill, niekoniecznie w token generation.</li>
+<li><strong>OpenViking + Ollama:</strong> sprawdź logi/request body i potwierdź, że żądany <code>num_ctx</code> jest widoczny jako <code>options.num_ctx</code>; potem obserwuj VRAM przy długich ekstrakcjach.</li>
+</ol>
+</section>
+
+<section class="scan">
+<h2>Skan specjalny: expert parallel, unified KV, RAM cache, multislot i multimodal ≤32 GB</h2>
+<p class="muted">W sprawdzonych źródłach z dokładnego okna nie znalazłem nowego merged change w llama.cpp dla expert parallel, unified KV, RAM cache ani multislot/server slot scheduling. Aktywny jest draft tensor-parallel/NCCL #28967, ale to osobny mechanizm od expert parallel i nie jest jeszcze gotowym upstreamowym merge'em. Nie znalazłem też nowej premiery open-weight STT/TTS/S2S/image/video mieszczącej się w ≤32 GB VRAM, która w tym oknie przekraczałaby próg istotności; nie uzupełniam raportu starszymi release'ami.</p>
+</section>
+<footer>Local AI Daily Radar · 2026-09-18 · raport techniczny, bez marketingowego release-note noise</footer>
+</div>
+<script>
+(function(){const root=document.documentElement,key='local-ai-radar-theme',btn=document.getElementById('themeToggle');const saved=localStorage.getItem(key);if(saved==='light'||saved==='dark')root.dataset.theme=saved;btn.addEventListener('click',()=>{const next=root.dataset.theme==='light'?'dark':'light';root.dataset.theme=next;localStorage.setItem(key,next);});})();
+</script>
+</body>
+</html>
