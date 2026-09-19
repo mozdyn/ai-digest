@@ -6,7 +6,29 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 18 Sep 2026 08:00:58 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 07:58:43 +0200</lastBuildDate>
+    <item>
+      <title>Local AI Daily Radar — 2026-09-19</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-19.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-19.html</guid>
+      <pubDate>Sat, 19 Sep 2026 07:58:43 +0200</pubDate>
+      <description><![CDATA[
+        <p>5 tematów: llama.cpp naprawia korupcję CUB argsort w CUDA; Vulkan przyspiesza routing 512 ekspertów Qwen3.8-Flash-Next; ik_llama dodaje spill checkpointów RAM→NVMe; Hermes poprawia obsługę zajętego single-slot serwera; OpenViking importuje standalone provider pamięci dla Hermesa.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-19.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category>
+      <category>LLAMA.CPP</category>
+      <category>CUDA</category>
+      <category>V100</category>
+      <category>SM70</category>
+      <category>QWEN3.8</category>
+      <category>MOE</category>
+      <category>IK-LLAMA</category>
+      <category>RAM-CACHE</category>
+      <category>HERMES</category>
+      <category>OPENVIKING</category>
+      <category>SELF-HOSTING</category>
+    </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-18</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-18.html</link>
@@ -16,20 +38,7 @@
         <p>8 tematów: llama.cpp naprawia qwen35moe/MTP z fused experts; ik_llama przenosi SWA compaction na urządzenie i wyrównuje prefill repacked IQ*; Ollama naprawia wzrost pamięci KV przy speculative decoding Qwen3.8; aktywny jest draft NCCL tensor parallel; llama-swap dodaje kubeswap, Hermes poprawia wznawianie managed llama.cpp, a OpenViking naprawia num_ctx dla Ollamy.</p>
         <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-18.html">Otwórz pełny raport</a></p>
       ]]></description>
-      <category>LOCAL-AI</category>
-      <category>LLAMA.CPP</category>
-      <category>QWEN3.8</category>
-      <category>MTP</category>
-      <category>MOE</category>
-      <category>KV-CACHE</category>
-      <category>V100</category>
-      <category>SM70</category>
-      <category>IK-LLAMA</category>
-      <category>OLLAMA</category>
-      <category>LLAMA-SWAP</category>
-      <category>HERMES</category>
-      <category>OPENVIKING</category>
-      <category>SELF-HOSTING</category>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>QWEN3.8</category><category>MTP</category><category>MOE</category><category>KV-CACHE</category><category>V100</category><category>SM70</category><category>IK-LLAMA</category><category>OLLAMA</category><category>LLAMA-SWAP</category><category>HERMES</category><category>OPENVIKING</category><category>SELF-HOSTING</category>
     </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-17</title>
@@ -40,18 +49,7 @@
         <p>5 tematów: llama.cpp naprawia tensor parallel + fused QKV dla Qwen3.6/Qwen3.8, unified KV lepiej dobiera kontekst pod multislot, CUDA Graph stabilizuje MTP, ik_llama optymalizuje QSA Qwen3.8-Next, a llama-swap ogranicza retained RAM puli zstd.</p>
         <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-17.html">Otwórz pełny raport</a></p>
       ]]></description>
-      <category>LOCAL-AI</category>
-      <category>LLAMA.CPP</category>
-      <category>QWEN3.6</category>
-      <category>QWEN3.8</category>
-      <category>CUDA</category>
-      <category>V100</category>
-      <category>SM70</category>
-      <category>UNIFIED-KV</category>
-      <category>MTP</category>
-      <category>IK-LLAMA</category>
-      <category>LLAMA-SWAP</category>
-      <category>SELF-HOSTING</category>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>QWEN3.6</category><category>QWEN3.8</category><category>CUDA</category><category>V100</category><category>SM70</category><category>UNIFIED-KV</category><category>MTP</category><category>IK-LLAMA</category><category>LLAMA-SWAP</category><category>SELF-HOSTING</category>
     </item>
     <item>
       <title>Local AI Daily Radar — 2026-09-16</title>
