@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Local AI Daily Radar — 2026-09-19</title>
+<style>
+:root{--bg:#071018;--panel:#0d1924;--panel2:#101f2d;--text:#e8f1f8;--muted:#94a8ba;--line:#203447;--accent:#5fd4ff;--good:#74e3a2;--warn:#ffd166;--risk:#ff7b7b;--violet:#b6a0ff;--shadow:0 18px 50px rgba(0,0,0,.28)}
+html[data-theme="light"]{--bg:#f5f8fb;--panel:#fff;--panel2:#f0f5f9;--text:#10202c;--muted:#5b6c78;--line:#d5e0e8;--accent:#006a91;--good:#087c43;--warn:#915f00;--risk:#b22c2c;--violet:#6346b8;--shadow:0 12px 32px rgba(23,50,70,.10)}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:radial-gradient(circle at 12% 0%,rgba(95,212,255,.10),transparent 28rem),var(--bg);color:var(--text);font:15px/1.62 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{width:min(1120px,calc(100% - 32px));margin:auto;padding:30px 0 60px}.hero,.card,.watch,.actions,.scan{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel),color-mix(in srgb,var(--panel) 92%,transparent));border-radius:22px;box-shadow:var(--shadow)}.hero{padding:30px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;right:-90px;top:-130px;background:radial-gradient(circle,rgba(95,212,255,.17),transparent 68%);pointer-events:none}.topline{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(32px,6vw,58px);line-height:1.03;margin:8px 0 14px;letter-spacing:-.04em}h2{font-size:24px;line-height:1.22;margin:0 0 12px;letter-spacing:-.02em}h3{font-size:15px;margin:18px 0 5px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}.lead{font-size:17px;max-width:850px;color:var(--muted);margin:0}.theme{appearance:none;border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:9px 13px;font:inherit;font-weight:700;cursor:pointer;white-space:nowrap}.meta,.stats{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.pill,.tag,.status{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:5px 9px;font-size:12px}.pill{background:var(--panel2);color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.stat{padding:15px 16px;border-radius:16px;background:var(--panel2);border:1px solid var(--line)}.stat b{display:block;font-size:24px;line-height:1;color:var(--text);margin-bottom:5px}.stat span{color:var(--muted);font-size:12px}.section-title{margin:34px 4px 14px;font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:800}.cards{display:grid;gap:15px}.card{padding:24px}.cardhead{display:flex;gap:14px;align-items:flex-start}.num{width:38px;height:38px;flex:0 0 38px;border:1px solid var(--line);background:var(--panel2);border-radius:12px;display:grid;place-items:center;font-weight:900;color:var(--accent)}.cardtitle{flex:1}.status{font-weight:800}.test{color:var(--good);border-color:color-mix(in srgb,var(--good) 38%,var(--line));background:color-mix(in srgb,var(--good) 8%,transparent)}.observe{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 38%,var(--line));background:color-mix(in srgb,var(--warn) 8%,transparent)}.risk{color:var(--risk);border-color:color-mix(in srgb,var(--risk) 38%,var(--line));background:color-mix(in srgb,var(--risk) 8%,transparent)}p{margin:8px 0 0}.muted{color:var(--muted)}.kv{display:grid;grid-template-columns:160px 1fr;gap:7px 16px;margin-top:16px;padding-top:15px;border-top:1px solid var(--line)}.kv dt{color:var(--muted);font-weight:700}.kv dd{margin:0}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:17px}.tag{background:var(--panel2);color:var(--muted);padding:4px 8px}.source{display:inline-block;margin-top:16px;color:var(--accent);font-weight:750;text-decoration:none}.source:hover{text-decoration:underline}.watch,.actions,.scan{padding:22px;margin-top:15px}.watch-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}.watch-item{border:1px solid var(--line);background:var(--panel2);border-radius:14px;padding:13px}.watch-item b{display:block;margin-bottom:4px}.watch-item span{font-size:13px;color:var(--muted)}.actions ol{margin:10px 0 0;padding-left:22px}.actions li{padding:5px 0}.footer{margin:24px 4px 0;color:var(--muted);font-size:12px}.accent{color:var(--accent)}.good{color:var(--good)}.warn{color:var(--warn)}code{font:13px ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:1px 5px}
+@media(max-width:760px){.wrap{width:min(100% - 20px,1120px);padding-top:12px}.hero,.card,.watch,.actions,.scan{border-radius:17px}.hero,.card{padding:19px}.topline{display:block}.theme{margin-top:12px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.cardhead{gap:10px}.kv{grid-template-columns:1fr;gap:2px}.kv dd{margin-bottom:9px}.watch-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:450px){.stats,.watch-grid{grid-template-columns:1fr}.cardhead{display:block}.num{margin-bottom:10px}}
+@media print{html,body{background:#fff!important;color:#111!important}.wrap{width:100%;padding:0}.hero,.card,.watch,.actions,.scan{box-shadow:none;background:#fff!important;border-color:#bbb;break-inside:avoid}.theme{display:none}.muted,.footer,.pill,.tag{color:#444!important}.source{color:#000!important;text-decoration:underline}.section-title{color:#333}.stats{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero">
+  <div class="topline">
+    <div>
+      <div class="eyebrow">Local AI · Daily Radar</div>
+      <h1>19 września 2026</h1>
+      <p class="lead">Najważniejsze zmiany z ostatnich 24 godzin: poprawka poprawności CUDA w <strong>llama.cpp</strong>, przyspieszenie routingu 512 ekspertów dla Qwen3.8 na Vulkanie, NVMe spill checkpointów w <strong>ik_llama.cpp</strong> oraz dwie praktyczne zmiany w warstwie agentów/self-hostingu.</p>
+    </div>
+    <button class="theme" id="themeToggle" type="button" aria-label="Przełącz motyw">☀︎ / ☾</button>
+  </div>
+  <div class="meta">
+    <span class="pill">okno: 18.09 07:58 → 19.09 07:58 CEST</span>
+    <span class="pill">priorytet: V100 32 GB PCIe / SM70</span>
+    <span class="pill">Qwen3.6 / Qwen3.8 watch</span>
+    <span class="pill">źródła pierwotne</span>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>5</b><span>istotnych tematów</span></div>
+    <div class="stat"><b>1</b><span>świeża poprawka CUDA</span></div>
+    <div class="stat"><b>+19%</b><span>PP Qwen3.8 / Vulkan, 8k</span></div>
+    <div class="stat"><b>0</b><span>nowych multimodalnych ≤32 GB ponad próg</span></div>
+  </div>
+</section>
+
+<div class="section-title">Najważniejsze zmiany</div>
+<section class="cards">
+<article class="card">
+  <div class="cardhead"><div class="num">1</div><div class="cardtitle"><h2>llama.cpp naprawia korupcję CUB argsort w CUDA</h2><span class="status test">warto testować</span></div></div>
+  <p>Upstream przestał używać tego samego bufora jako wejścia i wyjścia dla <code>CUB DeviceRadixSort::SortPairs</code>. CUB wymaga rozdzielnych buforów kluczy; aliasowanie mogło nadpisywać dane w trakcie sortowania i zwracać uszkodzoną permutację. Reprodukcja dotyczyła <code>top_k</code> nad słownikiem 248k, po czym błędne indeksy prowadziły do out-of-bounds w <code>get_rows</code>.</p>
+  <dl class="kv">
+    <dt>Dlaczego ważne</dt><dd>To poprawka poprawności, nie kosmetyka. Ścieżki top-k/argsort są używane w miejscach, gdzie zły indeks może skończyć się crashem albo cichym błędem.</dd>
+    <dt>V100 / SM70</dt><dd><strong>Potencjalnie bezpośrednio istotne.</strong> Kod jest wspólną ścieżką CUDA/CUB; źródłowa reprodukcja była na Maxwell + CUDA 12.5, a nie V100. Brak bezpośredniego benchmarku/testu V100, więc warto zrobić test regresji na SM70.</dd>
+    <dt>Qwen3.6 / 3.8</dt><dd>Wpływ jest <strong>pośredni, niepotwierdzony modelem</strong>. Qwen3.8 ma sparse/indexer/top-k elementy, więc poprawka jest warta uwagi, ale commit nie przedstawia testu Qwen3.8.</dd>
+  </dl>
+  <div class="tags"><span class="tag">llama.cpp</span><span class="tag">CUDA</span><span class="tag">CUB</span><span class="tag">argsort</span><span class="tag">top-k</span><span class="tag">V100</span><span class="tag">SM70</span></div>
+  <a class="source" href="https://github.com/ggml-org/llama.cpp/commit/b23701f77d47dad9de834d59ebfcbe25c9e8b46f">Źródło: llama.cpp commit b23701f →</a>
+</article>
+
+<article class="card">
+  <div class="cardhead"><div class="num">2</div><div class="cardtitle"><h2>Qwen3.8-Flash-Next: Vulkan odblokowuje szybszy routing 512 ekspertów</h2><span class="status observe">obserwować</span></div></div>
+  <p>Vulkanowy <code>mul_mat_id</code> miał optymalizację hoistowania row-id ograniczoną do 256 ekspertów. Qwen3.8-Flash-Next ma 512 ekspertów, więc wpadał w wolniejszą ścieżkę. Limit został podniesiony finalnie do 1024 ekspertów, przy 12 KiB pamięci współdzielonej.</p>
+  <dl class="kv">
+    <dt>Wynik</dt><dd>Na Strix Halo, batch 2048: matmul ekspertów 12.5→9.5 ms dla IQ3_S i 14.0→7.5 ms dla IQ4_NL; prompt processing przy 8k tokenów około <strong>19% szybciej</strong>. Testy MUL_MAT_ID przeszły 889/889 na RADV / Radeon 8060S.</dd>
+    <dt>V100 / SM70</dt><dd><strong>Brak bezpośredniego zysku.</strong> To backend Vulkan/AMD, nie CUDA. Dla V100 warto śledzić jako wskazówkę, że obsługa setek ekspertów nadal ma łatwe do przeoczenia koszty routingu, ale nie przenosić +19% na SM70.</dd>
+    <dt>Qwen3.6 / 3.8</dt><dd><strong>Bezpośrednio Qwen3.8-Flash-Next.</strong> Dla Qwen3.6 brak wskazanego wpływu w tym commicie.</dd>
+  </dl>
+  <div class="tags"><span class="tag">Qwen3.8</span><span class="tag">MoE</span><span class="tag">512 experts</span><span class="tag">Vulkan</span><span class="tag">mul_mat_id</span><span class="tag">prompt processing</span></div>
+  <a class="source" href="https://github.com/ggml-org/llama.cpp/commit/5c53396b89b05666c9d57445b7616a35f6198a16">Źródło: llama.cpp commit 5c53396 →</a>
+</article>
+
+<article class="card">
+  <div class="cardhead"><div class="num">3</div><div class="cardtitle"><h2>ik_llama.cpp: checkpointy kontekstu mogą spillować z RAM na NVMe</h2><span class="status test">warto testować</span></div></div>
+  <p>Fork dodał <code>--ctx-ckpt-spill-dir</code> oraz <code>--ctx-ckpt-live-n</code> (domyślnie 2 checkpointy rezydentne). Starsze checkpointy zachowują metadane w RAM, a blob trafia na dysk i jest ładowany dopiero przy restore. Uszkodzony/nieczytelny spill ma bezpieczny fallback do pełnego reprocessingu.</p>
+  <dl class="kv">
+    <dt>Pomiary autora</dt><dd>Blob około <strong>112 MB</strong>, restore z dysku około <strong>70 ms</strong>; utrzymany kontekst 30.8k przy ~7k prefills, bez fatal errors w testach do 31k.</dd>
+    <dt>V100 / SM70</dt><dd>Brak zmiany kerneli CUDA, ale to praktyczne dla maszyn z V100 PCIe, gdzie długie konteksty i kilka slotów mogą przerzucać presję z VRAM do RAM. Szybki lokalny NVMe może ograniczyć RAM kosztem kontrolowanej latencji restore.</dd>
+    <dt>Qwen3.6 / 3.8</dt><dd>Warstwa serwera, więc potencjalnie użyteczna niezależnie od architektury. <strong>Brak bezpośredniego benchmarku Qwen3.6/3.8 w commicie.</strong></dd>
+  </dl>
+  <div class="tags"><span class="tag">ik_llama.cpp</span><span class="tag">RAM cache</span><span class="tag">checkpoint</span><span class="tag">NVMe</span><span class="tag">long context</span><span class="tag">multislot</span></div>
+  <a class="source" href="https://github.com/ikawrakow/ik_llama.cpp/commit/912e9eb7d76d5a3b8632370c1039134f957290ad">Źródło: ik_llama.cpp commit 912e9eb →</a>
+</article>
+
+<article class="card">
+  <div class="cardhead"><div class="num">4</div><div class="cardtitle"><h2>Hermes Agent rozróżnia realny overflow od zajętego single-slot serwera</h2><span class="status test">warto testować</span></div></div>
+  <p>LM Studio lub Ollama z jednym slotem potrafią zwrócić błąd „context exceeded”, gdy kontekst trzyma inny request, np. background memory review. Hermes wcześniej mógł uznać to za przepełnioną rozmowę, próbować niepotrzebnej kompresji, a nawet doprowadzić do resetu sesji. Teraz, gdy serwer nie poda własnego pomiaru, a szacowany request wraz z rezerwą outputu zajmuje mniej niż połowę znanego okna, błąd jest klasyfikowany jako przejściowy <code>server_error</code> i retryable.</p>
+  <dl class="kv">
+    <dt>Dlaczego ważne</dt><dd>To konkretna poprawka zachowania przy ograniczonej współbieżności lokalnego runtime'u; nie niszczy historii rozmowy z powodu chwilowo zajętego slotu.</dd>
+    <dt>V100 / SM70</dt><dd>Pośrednio ważne: pojedynczy V100 32 GB często wymusza małą liczbę slotów i agresywne gospodarowanie kontekstem.</dd>
+    <dt>Qwen3.6 / 3.8</dt><dd>Brak zmiany modelowej; dotyczy także tych modeli, jeśli są wystawione przez Ollama/LM Studio i mają ograniczoną liczbę równoległych kontekstów.</dd>
+  </dl>
+  <div class="tags"><span class="tag">Hermes Agent</span><span class="tag">Ollama</span><span class="tag">LM Studio</span><span class="tag">single-slot</span><span class="tag">concurrency</span><span class="tag">context</span></div>
+  <a class="source" href="https://github.com/NousResearch/hermes-agent/commit/5e950506089fdd5749112f38d47cecf2b1168b7f">Źródło: Hermes Agent commit 5e95050 →</a>
+</article>
+
+<article class="card">
+  <div class="cardhead"><div class="num">5</div><div class="cardtitle"><h2>OpenViking przejmuje standalone provider pamięci dla Hermes Agent</h2><span class="status test">warto testować</span></div></div>
+  <p>OpenViking zaimportował provider Hermes do <code>examples/hermes-plugin</code>, przygotowując migrację z providera bundlowanego w Hermes core do samodzielnego pluginu. Zachowane mają być istniejące <code>memory.openviking</code>, zmienne środowiskowe, <code>ovcli.conf</code>, ścieżki danych i narzędzia <code>viking_*</code>. Plugin łączy się z serwerem OpenViking po HTTP; serwer pozostaje osobnym środowiskiem/kontenerem.</p>
+  <dl class="kv">
+    <dt>Self-hosting</dt><dd>Daje wyraźniejszą granicę między cyklem wydawniczym Hermesa i OpenViking. Dokumentacja zaleca OpenViking ≥0.2.10; sam plugin zachowuje licencję MIT, główny projekt OpenViking pozostaje AGPLv3.</dd>
+    <dt>V100 / SM70</dt><dd>Brak bezpośredniego wpływu GPU.</dd>
+    <dt>Qwen3.6 / 3.8</dt><dd>Brak wpływu na inference; zmiana dotyczy warstwy pamięci/agenta.</dd>
+  </dl>
+  <div class="tags"><span class="tag">OpenViking</span><span class="tag">Hermes Agent</span><span class="tag">memory</span><span class="tag">plugin</span><span class="tag">self-hosting</span></div>
+  <a class="source" href="https://github.com/volcengine/OpenViking/commit/3fca2577520f00b7f580d85d4ac6ae42bb9ba6f1">Źródło: OpenViking commit 3fca257 →</a>
+</article>
+</section>
+
+<div class="section-title">Specjalny watch: llama.cpp / Qwen / V100</div>
+<section class="watch">
+  <h2>Co z expert parallel, unified KV, RAM cache i multislot?</h2>
+  <p class="muted">W tym 24-godzinnym oknie nie znalazłem nowego, istotnego merge'a upstream llama.cpp w trzech z czterech obserwowanych obszarów. Nie dokładam starszych zmian tylko po to, by wypełnić raport.</p>
+  <div class="watch-grid">
+    <div class="watch-item"><b>Expert parallel</b><span>Brak nowego istotnego merge'a CUDA/SM70. Jest świeża optymalizacja routingu ekspertów dla Vulkan/Qwen3.8, opisana wyżej.</span></div>
+    <div class="watch-item"><b>Unified KV</b><span>Brak nowego istotnego merge'a w tym oknie. Ostatnia ważna fala zmian była wcześniej i nie jest powtarzana.</span></div>
+    <div class="watch-item"><b>RAM / prompt cache</b><span>Upstream bez ważnego merge'a; fork ik_llama ma natomiast świeży NVMe spill checkpointów.</span></div>
+    <div class="watch-item"><b>Multislot</b><span>Brak nowego upstream merge'a. Hermes naprawia zachowanie przy zajętym single-slot runtime, co jest praktycznie powiązane.</span></div>
+  </div>
+</section>
+
+<section class="scan">
+  <h2>Multimodal ≤32 GB VRAM</h2>
+  <p>Dzisiejszy skan STT/ASR, TTS/voice cloning/S2S, live voice, audio/music, image oraz video nie wykazał nowej lokalnej/open-weight premiery z ostatnich 24 godzin, która jednocześnie spełniałaby próg istotności i dawała wiarygodny profil dla pojedynczego GPU ≤32 GB. Nie dodaję starszych wydań ani marketingowych zapowiedzi.</p>
+</section>
+
+<section class="actions">
+  <h2>Dzisiaj warto zrobić</h2>
+  <ol>
+    <li><strong>Przebudować llama.cpp po b23701f i zrobić smoke test na V100</strong>: długi prompt + Qwen3.8, scenariusze z top-k/QSA oraz kilka równoległych requestów. Celem jest potwierdzenie poprawności, nie szukanie wzrostu t/s.</li>
+    <li>Jeśli używasz <strong>ik_llama.cpp</strong> z długimi kontekstami, przetestować <code>--ctx-ckpt-spill-dir</code> na lokalnym NVMe i <code>--ctx-ckpt-live-n 2</code>; porównać RSS oraz p95 restore z wariantem całkowicie RAM.</li>
+    <li><strong>Nie przenosić +19% z Vulkan/Strix Halo na V100.</strong> To backend-specyficzna optymalizacja. Warto natomiast obserwować, czy podobne usunięcie narzutu routingu 512 ekspertów pojawi się w ścieżce CUDA.</li>
+  </ol>
+</section>
+
+<p class="footer">Radar obejmuje zmiany opublikowane w przybliżeniu między 18.09.2026 07:58 a 19.09.2026 07:58 CEST. Priorytetem są źródła pierwotne i zmiany możliwe do zweryfikowania; wpływ na V100/Qwen jest oznaczany jako bezpośredni lub pośredni.</p>
+</main>
+<script>
+(()=>{const k='local-ai-radar-theme',r=document.documentElement,b=document.getElementById('themeToggle');const saved=localStorage.getItem(k);if(saved==='light'||saved==='dark')r.dataset.theme=saved;b.addEventListener('click',()=>{const n=r.dataset.theme==='light'?'dark':'light';r.dataset.theme=n;localStorage.setItem(k,n)})})();
+</script>
+</body>
+</html>
