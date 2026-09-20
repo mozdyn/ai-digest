@@ -6,7 +6,19 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 20 Sep 2026 07:58:19 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 12:21:00 +0200</lastBuildDate>
+    <item>
+      <title>Local AI Weekly — 2026-W38</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W38.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/weekly/2026-W38.html</guid>
+      <pubDate>Sun, 20 Sep 2026 12:21:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>18 tematów: V100/SM70 tuning i ryzyka FP16, llama.cpp MTP/speculative decoding, DeepSeek-V4 na Volcie, Hermes/OpenHands/OpenViking, local runtimes oraz multimodalne modele i narzędzia do 32 GB VRAM.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/weekly/2026-W38.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>WEEKLY</category><category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>AGENTS</category><category>VOICE</category><category>MULTIMODAL</category><category>SELF-HOSTING</category>
+    </item>
+
     <item>
       <title>Local AI Daily Radar — 2026-09-20</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-20.html</link>
