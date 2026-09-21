@@ -6,7 +6,7 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 20 Sep 2026 12:21:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 08:05:00 +0200</lastBuildDate>
     <item>
       <title>Local AI Weekly — 2026-W38</title>
       <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W38.html</link>
@@ -17,6 +17,18 @@
         <p><a href="https://mozdyn.github.io/ai-digest/reports/weekly/2026-W38.html">Otwórz pełny raport</a></p>
       ]]></description>
       <category>WEEKLY</category><category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>AGENTS</category><category>VOICE</category><category>MULTIMODAL</category><category>SELF-HOSTING</category>
+    </item>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-09-21</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-21.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-21.html</guid>
+      <pubDate>Mon, 21 Sep 2026 08:05:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>7 tematów: Qwen4 sparse Flash Attention, multislot save/restore i KV-state correctness w llama.cpp, sprzętowy limit rezydentnych modeli w Hermes Agent, duże poprawki incremental ingest i cold-start recovery w OpenViking oraz premiera Qwen-Image-2.1.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-21.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>KV-CACHE</category><category>MULTISLOT</category><category>QWEN3.6</category><category>QWEN4</category><category>HERMES</category><category>OPENVIKING</category><category>IMAGE</category><category>SELF-HOSTING</category>
     </item>
 
     <item>
