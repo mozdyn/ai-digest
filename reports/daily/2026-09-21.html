@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Local AI Daily Radar — 2026-09-21</title>
+<style>
+:root{--bg:#081018;--panel:#101a26;--panel2:#142132;--text:#edf5fb;--muted:#9bb0c4;--line:#26384c;--accent:#66d9ff;--good:#72e6a6;--warn:#ffd166;--risk:#ff7b8b;--chip:#18283a;--shadow:0 18px 44px rgba(0,0,0,.28)}
+:root[data-theme="light"]{--bg:#f4f7fa;--panel:#fff;--panel2:#f0f5f9;--text:#13202d;--muted:#5d7185;--line:#d7e0e8;--accent:#087ea4;--good:#147a4b;--warn:#9a6500;--risk:#b82a3a;--chip:#eaf1f6;--shadow:0 14px 30px rgba(28,49,68,.10)}
+*{box-sizing:border-box}html{background:var(--bg);color:var(--text)}body{margin:0;font:15.5px/1.62 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}code{font:0.92em ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--chip);border:1px solid var(--line);padding:.08em .35em;border-radius:6px}.wrap{max-width:1120px;margin:auto;padding:28px 20px 56px}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow);margin-bottom:18px}.hero:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;right:-120px;top:-160px;background:radial-gradient(circle,rgba(102,217,255,.24),transparent 68%);pointer-events:none}.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:800}.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.06;margin:8px 0 12px;max-width:880px}.hero p{max-width:900px;margin:8px 0;color:var(--muted)}.meta,.tags,.stats{display:flex;flex-wrap:wrap;gap:8px}.meta{margin-top:18px}.pill,.tag,.status{display:inline-flex;align-items:center;border:1px solid var(--line);background:var(--chip);border-radius:999px;padding:5px 9px;font-size:12px}.pill{color:var(--muted)}.theme{position:absolute;right:22px;top:22px;z-index:2;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:8px 12px;cursor:pointer}.stats{margin:18px 0}.stat{flex:1 1 170px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}.stat b{display:block;font-size:25px;line-height:1.1;margin-bottom:4px}.stat span{color:var(--muted);font-size:13px}.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px;margin:14px 0;box-shadow:0 8px 24px rgba(0,0,0,.12)}.card h2{font-size:22px;line-height:1.25;margin:8px 0 14px}.card h3{font-size:15px;margin:15px 0 5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.card p{margin:7px 0}.status.test{color:var(--good)}.status.watch{color:var(--warn)}.status.risk{color:var(--risk)}.tag{color:var(--muted)}.num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--chip);border:1px solid var(--line);font-weight:800;margin-right:8px}.callout{border-left:3px solid var(--accent);padding:10px 14px;background:var(--panel2);border-radius:0 12px 12px 0;margin:13px 0}.watchgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.watchitem{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:13px}.watchitem b{display:block;margin-bottom:4px}.watchitem span{color:var(--muted);font-size:13px}.todo{background:linear-gradient(135deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:20px;padding:22px;margin-top:18px}.todo ol{margin:8px 0 0;padding-left:22px}.todo li{margin:8px 0}.foot{color:var(--muted);font-size:12px;margin-top:18px}.source{margin-top:12px;font-size:13px}.source a{font-weight:700}@media(max-width:640px){.wrap{padding:16px 12px 38px}.hero,.card,.todo{border-radius:16px;padding:18px}.theme{position:static;margin-bottom:12px}.hero h1{font-size:31px}.card h2{font-size:19px}}@media print{html,body{background:#fff!important;color:#000!important}.wrap{max-width:none;padding:0}.hero,.card,.todo,.stat,.watchitem{box-shadow:none!important;background:#fff!important;color:#000!important;border-color:#aaa!important;break-inside:avoid}.theme{display:none}.hero p,.stat span,.tag,.pill,.watchitem span,.foot{color:#444!important}a{color:#000!important;text-decoration:underline}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<button class="theme" id="themeToggle" type="button" aria-label="Przełącz motyw">jasny / ciemny</button>
+<div class="eyebrow">Local AI Daily Radar</div>
+<h1>21 września 2026 — cache/state w llama.cpp, Qwen4 sparse FA i mocny dzień OpenViking</h1>
+<p>Technicznie istotne zmiany z ostatnich 24 godzin, z naciskiem na V100/Volta/SM70, llama.cpp, Qwen3.6/Qwen3.8, cache, multislot, lokalne runtime’y oraz self-hosting. Bez kosmetycznego release-note noise.</p>
+<div class="meta"><span class="pill">okno: 20.09 08:05 → 21.09 08:05 CEST</span><span class="pill">źródła: upstream PR/commit/model repo</span><span class="pill">V100 32 GB PCIe: specjalny watch</span></div>
+</header>
+<section class="stats">
+<div class="stat"><b>7</b><span>tematów ponad próg istotności</span></div>
+<div class="stat"><b>3</b><span>aktywne wątki llama.cpp wokół slot/state/KV</span></div>
+<div class="stat"><b>0</b><span>świeżych merge’y expert-parallel w upstreamie</span></div>
+<div class="stat"><b>1</b><span>nowa duża premiera multimodalna</span></div>
+</section>
+
+<article class="card">
+<div><span class="num">1</span><span class="status test">warto testować</span></div>
+<h2>llama.cpp: zmergowano sparse Flash Attention dla Qwen4 — im dłuższy kontekst, tym większy zysk</h2>
+<p><strong>Co się zmieniło:</strong> PR #28770 włączył sparse Flash Attention dla Qwen4. Wcześniej ścieżka uwagi ponownie oceniała cały KV cache; teraz maska jest kompresowana do list faktycznie widocznych kolumn. Dla tego wariantu sparse FA zaczyna być używane od kontekstu około 32k.</p>
+<p><strong>Dlaczego to ważne:</strong> w benchmarku autora na DGX Spark dla Qwen4exp A3B IQ1_S przy głębokości 100k prompt processing wzrósł z 252.81 do 318.28 t/s (~1.26×), a TG32 z 12.00 do 14.19 t/s (~1.18×). Przy 10k zysk był dużo mniejszy, więc jest to przede wszystkim optymalizacja long-context.</p>
+<p><strong>V100/SM70:</strong> patch pozostaje w ścieżce CUDA F16, której kod ma wariant kompilacyjny dla Volta MMA, ale PR nie publikuje benchmarku V100. Nie przenoszę wyników z DGX Spark na Voltę; na V100 warto sprawdzić, czy build faktycznie wybiera sparse path i zmierzyć PP/TG przy 32k–100k.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> brak bezpośredniego wpływu — zmiana jest dla Qwen4, więc nie należy zakładać automatycznego zysku na 3.6/3.8.</p>
+<div class="tags"><span class="tag">llama.cpp</span><span class="tag">CUDA</span><span class="tag">Qwen4</span><span class="tag">sparse FA</span><span class="tag">KV cache</span><span class="tag">long context</span></div>
+<div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/pull/28770">llama.cpp PR #28770</a></div>
+</article>
+
+<article class="card">
+<div><span class="num">2</span><span class="status watch">obserwować</span></div>
+<h2>Multislot / RAM-cache watch: PR zachowuje checkpointy kontekstu przez slot save → restore</h2>
+<p><strong>Co się zmieniło:</strong> aktywny PR #26004 zapisuje checkpointy kontekstu razem ze stanem slotu. Bez tego po <code>slot save → restore</code> serwer odtwarza token cache, ale traci checkpointy potrzebne do cofnięcia stanu w modelach SWA i hybrid/recurrent. Przy kolejnym promptcie ze wspólnym prefiksem serwer potrafi więc wymusić pełny re-prefill.</p>
+<p><strong>Dlaczego to ważne:</strong> PR dodaje wersjonowany blok <code>SCKP</code> do pliku stanu, limity ochronne dla uszkodzonych zapisów i test, w którym master przetwarza ponownie 210 tokenów zamiast 31. Test celowo ustawia <code>cache_ram=0</code>, aby hostowy prompt cache nie maskował problemu.</p>
+<p><strong>V100/SM70:</strong> zmiana jest backend-agnostyczna i dotyczy serwera/state I/O, więc ma sens również na V100, szczególnie gdy koszt prefill przez PCIe/CPU-offload jest wysoki. To jednak nadal otwarty PR.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> autor podaje Qwen3-Next jako przykład; brak świeżego bezpośredniego testu 3.6/3.8. Dla 3.8/3.6 z SWA/MTP traktować jako potencjalnie istotne, ale niepotwierdzone.</p>
+<div class="tags"><span class="tag">llama.cpp server</span><span class="tag">multislot</span><span class="tag">RAM cache</span><span class="tag">slot save/restore</span><span class="tag">SWA</span><span class="tag">hybrid</span></div>
+<div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/pull/26004">llama.cpp PR #26004</a></div>
+</article>
+
+<article class="card">
+<div><span class="num">3</span><span class="status risk">uważać na regresję</span></div>
+<h2>llama.cpp state/KV correctness: dwa aktywne PR-y dotykają failed restore i persistent KV views; jeden reprodukuje Qwen3.6-27B MTP</h2>
+<p><strong>Co się zmieniło:</strong> PR #27530 porządkuje nieudane restore’y per-sequence: usuwa pozostawione K/V lub recurrent-state tensors, kasuje deferred writes i waliduje <code>cell_count</code>, aby uszkodzony restore nie zatruwał późniejszych sekwencji. Równolegle PR #25584 naprawia przypadek, w którym po podziale alokacji na maksymalny rozmiar bufora końcowe persistent views <code>k_stream/v_stream</code> mogły pozostać bez inicjalizacji.</p>
+<p><strong>Dlaczego to ważne:</strong> to nie są kosmetyczne poprawki — błędny state restore może zostawić dane wpływające na logity kolejnej sekwencji albo wywołać assert podczas host save/restore. W #25584 problem został odtworzony na Qwen3.6-27B MTP; przed poprawką 0/10 prób kończyło się poprawnie, po poprawce 10/10.</p>
+<p><strong>V100/SM70:</strong> reprodukcja #25584 jest na Vulkan/AMDVLK, nie CUDA. #27530 dotyczy wspólnej warstwy pamięci/state i może mieć znaczenie niezależnie od GPU, ale nie ma benchmarku ani repro na V100.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> Qwen3.6-27B MTP jest bezpośrednim przypadkiem #25584. Dla Qwen3.8 wpływ nie został dziś potwierdzony. Jeśli używasz długich kontekstów, MTP i zapisu/odtwarzania slotów, ten klaster jest ważniejszy niż typowy performance tweak.</p>
+<div class="tags"><span class="tag">Qwen3.6</span><span class="tag">MTP</span><span class="tag">KV state</span><span class="tag">recurrent state</span><span class="tag">save/restore</span><span class="tag">correctness</span></div>
+<div class="source">Źródła: <a href="https://github.com/ggml-org/llama.cpp/pull/27530">PR #27530</a> · <a href="https://github.com/ggml-org/llama.cpp/pull/25584">PR #25584</a></div>
+</article>
+
+<article class="card">
+<div><span class="num">4</span><span class="status test">warto testować</span></div>
+<h2>Hermes Agent: lokalny runtime przestaje liczyć rezydentne modele „na sztuki” i zaczyna pilnować budżetu GPU</h2>
+<p><strong>Co się zmieniło:</strong> commit <code>eaa5523</code> zmienia limit rezydentnych modeli. Sam <code>local_runtime.models_max</code> nie wystarczał: drugi model mógł zostać wpuszczony na już zapełnioną kartę. Teraz router wylicza limit z pojemności sprzętowej i pozwala na więcej niż jeden model tylko wtedy, gdy największy staged model mieści się wielokrotnie w dostępnym budżecie; ustawienie użytkownika nadal pozostaje górnym limitem.</p>
+<p><strong>Dlaczego to ważne:</strong> commit opisuje przypadek Windows/WDDM, w którym overcommit nie kończył się błędem, tylko pagingiem do RAM i spadkiem dekodowania do około jednej trzeciej prędkości — bez czytelnego sygnału w UI. To dokładnie rodzaj „cichej” degradacji, której warto unikać w self-hostingu.</p>
+<p><strong>V100/SM70:</strong> mechanizm budżetowania jest ogólny; opisany failure mode dotyczy WDDM, więc na typowym V100/Linux zachowanie systemu pamięci będzie inne. Mimo to na karcie 32 GB ochrona przed równoczesnym załadowaniem zbyt dużych modeli jest praktyczna.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> brak model-specific change. Dla dużych Qwenów korzyść jest operacyjna: mniejsze ryzyko, że drugi rezydent „zje” VRAM i przepchnie pierwszą sesję w paging/offload.</p>
+<div class="tags"><span class="tag">Hermes Agent</span><span class="tag">local runtime</span><span class="tag">VRAM budget</span><span class="tag">residency</span><span class="tag">self-hosting</span></div>
+<div class="source">Źródło: <a href="https://github.com/NousResearch/hermes-agent/commit/eaa5523f115b12bc03329eb65d1c72dd9f5d77c6">Hermes commit eaa5523</a></div>
+</article>
+
+<article class="card">
+<div><span class="num">5</span><span class="status test">warto testować</span></div>
+<h2>OpenViking: incremental ingestion dostaje duży redesign — no-op nawet ~27.7× szybciej w teście autora</h2>
+<p><strong>Co się zmieniło:</strong> zmergowany PR #5175 rozdziela aktualizację zasobów na jawny plan treści, semantyki i indeksu. Zdrowy no-op nie wysyła formalnych plików, nie uruchamia semantycznego queue ani embedding queue; małe zmiany dotyczą tylko zmodyfikowanych plików i minimalnego drzewa semantycznego. Planner używa m.in. snapshotu RNFV i MD5 zamiast powtarzania kosztownego zdalnego I/O.</p>
+<p><strong>Dlaczego to ważne:</strong> w scenariuszu 642 plików autor raportuje: pierwszy import 397.71→143.12 s (2.78×), no-op 439.58→15.85 s (27.73×), pojedynczy zmieniony plik 429.06→44.87 s (9.56×). Liczba embedding/upsert w no-op spadła z 430/430 do 0/0. W osobnym scenariuszu 867 plików spadek czasu dla pojedynczej zmiany wyniósł 86.2%.</p>
+<p><strong>V100/SM70:</strong> brak bezpośredniego wpływu na CUDA. Pośrednio mniej niepotrzebnych embeddingów i semantycznych wywołań oznacza mniej pracy dla lokalnego GPU/LLM.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> brak bezpośredniego wpływu; korzyść zależy od tego, czy używasz tych modeli jako lokalnego backendu semantycznego/agentowego.</p>
+<div class="tags"><span class="tag">OpenViking</span><span class="tag">ingestion</span><span class="tag">RAG</span><span class="tag">embeddings</span><span class="tag">incremental</span><span class="tag">performance</span></div>
+<div class="source">Źródło: <a href="https://github.com/volcengine/OpenViking/pull/5175">OpenViking PR #5175</a></div>
+</article>
+
+<article class="card">
+<div><span class="num">6</span><span class="status test">warto testować</span></div>
+<h2>OpenViking: cold-start dużego local vectordb nie musi już materializować całej delta table w RAM</h2>
+<p><strong>Co się zmieniło:</strong> zmergowany PR #5225 zmienia recovery z pełnego materializowania listy rekordów delta na stronicowany, leniwy iterator. W pamięci pozostaje jedna strona surowych bajtów oraz pojedynczy dekodowany <code>DeltaRecord</code>, zamiast całej tabeli naraz.</p>
+<p><strong>Dlaczego to ważne:</strong> poprawka celuje w OOM/hang podczas zimnego startu na hostach z ograniczonym RAM. Autor zweryfikował ją na realnym lokalnym store ~6.4 GB: cold start kończy się poprawnie, <code>/health</code> jest zdrowe, semantic recall działa, a RSS pozostaje stabilny zamiast rosnąć do OOM.</p>
+<p><strong>V100/SM70:</strong> bezpośrednio nie dotyczy GPU, ale jest bardzo istotne dla homelabu z dużym lokalnym indeksem, gdzie RAM systemowy bywa równie krytyczny jak VRAM.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> brak bezpośredniego wpływu.</p>
+<div class="tags"><span class="tag">OpenViking</span><span class="tag">RAM</span><span class="tag">cold start</span><span class="tag">vectordb</span><span class="tag">recovery</span><span class="tag">OOM</span></div>
+<div class="source">Źródło: <a href="https://github.com/volcengine/OpenViking/pull/5225">OpenViking PR #5225</a></div>
+</article>
+
+<article class="card">
+<div><span class="num">7</span><span class="status watch">obserwować</span></div>
+<h2>Qwen-Image-2.1: nowy 7B model do generowania i edycji obrazów, ale z licencją research-only</h2>
+<p><strong>Co się zmieniło:</strong> 20 września wydano Qwen-Image-2.1 — zunifikowany model text-to-image i image editing z 7B-parametrowym komponentem generacji wizualnej (32 warstwy single-stream DiT). Obsługuje natywny RGBA/transparency, do 10 obrazów referencyjnych i natywne 2K. Od dnia premiery są ścieżki Diffusers, ComfyUI, vLLM-Omni, SGLang-Diffusion i LightX2V.</p>
+<p><strong>VRAM / runtime:</strong> oficjalny przykład używa BF16. README nie podaje twardego minimum VRAM; dokumentuje jednak <code>enable_model_cpu_offload()</code>, a vLLM-Omni ma ścieżkę FP8, prefix KV cache, CUDA Graph i tensor parallel. Sam 7B wizualny rdzeń to około 14 GB surowych wag BF16, ale cały pipeline i aktywacje — szczególnie przy 2K — wymagają dodatkowej pamięci, więc nie należy utożsamiać 14 GB z praktycznym minimum.</p>
+<p><strong>Licencja:</strong> Qwen Research License Agreement pozwala na użycie, modyfikację i dystrybucję wyłącznie do celów niekomercyjnych; komercyjne użycie wymaga osobnej licencji. To istotne ograniczenie względem wielu „open-weight” premier.</p>
+<p><strong>V100/SM70:</strong> brak oficjalnego benchmarku V100. BF16 nie ma natywnej akceleracji na Volcie, a część nowoczesnych FP8/graph-kernel paths będzie nastawiona na nowsze GPU; dla V100 realniejszy jest eksperyment z offloadem i kompatybilną precyzją niż oczekiwanie pełnej ścieżki optymalizowanej.</p>
+<div class="tags"><span class="tag">Qwen-Image-2.1</span><span class="tag">7B</span><span class="tag">image generation</span><span class="tag">image editing</span><span class="tag">RGBA</span><span class="tag">ComfyUI</span><span class="tag">non-commercial</span></div>
+<div class="source">Źródła: <a href="https://github.com/QwenLM/Qwen-Image-2.1">repo/model</a> · <a href="https://github.com/QwenLM/Qwen-Image-2.1/blob/main/LICENSE">Qwen Research License</a></div>
+</article>
+
+<section class="card">
+<h2>Watchlist: expert parallel, unified KV, forki V100</h2>
+<div class="watchgrid">
+<div class="watchitem"><b>Expert parallel</b><span>W przeglądzie upstream llama.cpp z ostatnich 24 h nie pojawił się świeży merge ani nowy aktywny PR trafiający wprost w „expert parallel”. Nie interpretuję tego jako zakończenia prac — po prostu dziś brak zmiany ponad próg.</span></div>
+<div class="watchitem"><b>Unified KV</b><span>Brak nowego merge’a unified-KV w tym oknie. Najżywsze wątki są dziś obok niego: checkpointy slotów, save/restore i poprawność persistent KV/state.</span></div>
+<div class="watchitem"><b>ik_llama.cpp</b><span>Brak nowych commitów w badanym oknie. Upstream ik_llama nadal nie jest dobrym domyślnym targetem dla V100; jego performant CUDA path jest kierowany na Turing lub nowsze.</span></div>
+<div class="watchitem"><b>Volta/Qwen fork</b><span>Specjalizowany <a href="https://github.com/jackjusko/jusko-llama-volta-qwen3flash">jusko-llama-volta-qwen3flash</a> pozostaje ciekawym punktem odniesienia dla V100 32 GB i Qwen3.8, ale nie miał nowego commita w tym 24-godzinnym oknie.</span></div>
+<div class="watchitem"><b>Ollama / llama-swap</b><span>Brak nowych commitów w oknie, które przechodziłyby próg raportu. Nie powtarzam wcześniejszych poprawek Qwen3.8 MLX ani kubeswap.</span></div>
+<div class="watchitem"><b>STT / TTS / video</b><span>W dzisiejszym skanie nie znalazłem świeżej premiery z tych kategorii, która jednocześnie mieści się w profilu local/self-host i ma wystarczająco konkretne dane techniczne. Qwen-Image-2.1 jest jedyną dużą nową pozycją multimodalną raportu.</span></div>
+</div>
+</section>
+
+<section class="todo">
+<h2>Dzisiaj warto zrobić</h2>
+<ol>
+<li><strong>V100/Qwen:</strong> jeśli testujesz Qwen4, porównaj long-context PP/TG przed i po #28770 przy 32k/64k/100k i potwierdź w logach, że sparse FA jest faktycznie aktywne na SM70.</li>
+<li><strong>Multislot:</strong> jeżeli używasz slot save/restore, zrób staging A/B dla #26004 oraz scenariusza z długim wspólnym prefiksem. Osobno obserwuj #27530 i #25584 przed wdrożeniem produkcyjnym.</li>
+<li><strong>Qwen3.6 MTP:</strong> jeżeli masz state save/restore lub bardzo duży kontekst, dodaj regresyjny test odpowiadający #25584; ten PR ma dziś najbardziej bezpośredni sygnał dla Qwen3.6.</li>
+<li><strong>OpenViking:</strong> po aktualizacji zmierz dwa przypadki, które powinny najmocniej skorzystać: no-op re-ingest oraz cold-start dużego local vectordb.</li>
+<li><strong>Qwen-Image-2.1:</strong> jeśli chcesz sprawdzić go na 24–32 GB, zacznij od niższej rozdzielczości i CPU offload; przed zastosowaniem komercyjnym uwzględnij wymóg osobnej licencji.</li>
+</ol>
+</section>
+<p class="foot">Raport filtruje zmiany według znaczenia dla local AI/self-hostingu. Brak wzmianki o projekcie nie oznacza braku aktywności — tylko brak zmiany, która w tym 24-godzinnym oknie przeszła próg technicznej istotności.</p>
+</div>
+<script>
+(()=>{const r=document.documentElement,b=document.getElementById('themeToggle'),k='local-ai-radar-theme';const saved=localStorage.getItem(k);if(saved==='light'||saved==='dark')r.dataset.theme=saved;b.addEventListener('click',()=>{const next=r.dataset.theme==='light'?'dark':'light';r.dataset.theme=next;localStorage.setItem(k,next)})})();
+</script>
+</body>
+</html>
