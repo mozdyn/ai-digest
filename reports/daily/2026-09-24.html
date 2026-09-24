@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark light">
+<title>Local AI Daily Radar — 2026-09-24</title>
+<style>
+:root{--bg:#081018;--panel:#101a26;--panel2:#142132;--text:#edf5fb;--muted:#9bb0c4;--line:#26384c;--accent:#66d9ff;--good:#72e6a6;--warn:#ffd166;--risk:#ff7b8b;--chip:#18283a;--shadow:0 18px 44px rgba(0,0,0,.28)}
+:root[data-theme=light]{--bg:#f4f7fa;--panel:#fff;--panel2:#f0f5f9;--text:#13202d;--muted:#5d7185;--line:#d7e0e8;--accent:#087ea4;--good:#147a4b;--warn:#9a6500;--risk:#b82a3a;--chip:#eaf1f6;--shadow:0 14px 30px rgba(28,49,68,.10)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.62 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}code{font:0.92em ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--chip);border:1px solid var(--line);padding:.08em .35em;border-radius:6px}.wrap{max-width:1120px;margin:auto;padding:28px 20px 56px}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow);margin-bottom:18px}.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.06;margin:8px 0 12px;max-width:940px}.hero p{max-width:920px;color:var(--muted)}.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:800}.meta,.tags,.stats{display:flex;flex-wrap:wrap;gap:8px}.pill,.tag,.status{display:inline-flex;align-items:center;border:1px solid var(--line);background:var(--chip);border-radius:999px;padding:5px 9px;font-size:12px}.pill,.tag{color:var(--muted)}.theme{position:absolute;right:22px;top:22px;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:8px 12px;cursor:pointer}.stats{margin:18px 0}.stat{flex:1 1 180px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}.stat b{display:block;font-size:25px}.stat span{color:var(--muted);font-size:13px}.card,.todo{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px;margin:14px 0;box-shadow:0 8px 24px rgba(0,0,0,.12)}.card h2,.todo h2{font-size:22px;line-height:1.25;margin:8px 0 14px}.card p{margin:7px 0}.num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--chip);border:1px solid var(--line);font-weight:800;margin-right:8px}.test{color:var(--good)}.watch{color:var(--warn)}.risk{color:var(--risk)}.source{margin-top:12px;font-size:13px}.source a{font-weight:700}.watchgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.watchitem{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:13px}.watchitem b{display:block}.watchitem span,.foot{color:var(--muted);font-size:13px}.todo ol{padding-left:22px}.todo li{margin:8px 0}.foot{font-size:12px}
+@media(max-width:640px){.wrap{padding:16px 12px}.hero,.card,.todo{padding:18px;border-radius:16px}.theme{position:static;margin-bottom:12px}.hero h1{font-size:31px}}
+@media print{html,body{background:#fff!important;color:#000!important}.wrap{max-width:none;padding:0}.hero,.card,.todo,.stat,.watchitem{box-shadow:none!important;background:#fff!important;color:#000!important;border-color:#aaa!important;break-inside:avoid}.theme{display:none}.hero p,.stat span,.tag,.pill,.watchitem span,.foot{color:#444!important}a{color:#000!important;text-decoration:underline}}
+</style>
+</head>
+<body><div class="wrap">
+<header class="hero">
+<button class="theme" id="themeToggle">jasny / ciemny</button>
+<div class="eyebrow">Local AI Daily Radar</div>
+<h1>24 września 2026 — llama.cpp 0.5.0, sparse FA i mocny dzień dla lokalnego voice stacku</h1>
+<p>Zmiany z ostatnich 24 godzin, z naciskiem na V100 32 GB PCIe / Volta / SM70, llama.cpp, Qwen3.6/Qwen3.8, KV, MoE, multislot, forki i praktyczny self-hosting.</p>
+<div class="meta"><span class="pill">okno: 23.09 08:02 → 24.09 08:02 CEST</span><span class="pill">źródła pierwotne</span><span class="pill">bez release-note noise</span></div>
+</header>
+
+<section class="stats">
+<div class="stat"><b>7</b><span>tematów ponad próg</span></div>
+<div class="stat"><b>v0.5.0</b><span>nowa stabilna baza llama.cpp</span></div>
+<div class="stat"><b>1.42×</b><span>max raportowany zysk sparse-FA DSV4 PP</span></div>
+<div class="stat"><b>0</b><span>nowych merge’y expert-parallel</span></div>
+</section>
+
+<section class="card"><h2>Specjalny watch: llama.cpp / Qwen / V100</h2><div class="watchgrid">
+<div class="watchitem"><b>Expert parallel</b><span>Brak świeżego bezpośredniego PR/merge’u expert-parallel w upstreamie w tym oknie.</span></div>
+<div class="watchitem"><b>Unified KV + multislot</b><span>Najciekawszy aktywny wątek to PR #28927: usunięcie kosztownego scheduler re-reserve przy multimodalnym decode na 2 slotach + --kv-unified.</span></div>
+<div class="watchitem"><b>Qwen3.6 / Qwen3.8</b><span>Brak nowego, bezpośrednio benchmarkowanego merge’u text-inference dla tych rodzin. Nie przypisuję im pośrednich zysków bez pomiaru.</span></div>
+<div class="watchitem"><b>V100 / SM70</b><span>Brak świeżego benchmarku V100. Mainline nadal zawiera osobną konfigurację Volta FA dla części kształtów; ik_llama oficjalnie celuje wydajnościowo w Turing+.</span></div>
+<div class="watchitem"><b>RAM/prompt/disk cache</b><span>Brak świeżej zmiany ponad próg w semantyce RAM/prompt/disk cache.</span></div>
+<div class="watchitem"><b>Multimodal ≤32 GB</b><span>Najważniejsza nowość to Qwen Audio Agent 2.0; VRAM zależy od wybranego lokalnego STT/LLM/TTS.</span></div>
+</div></section>
+
+<article class="card"><div><span class="num">1</span><span class="status test">warto testować</span></div>
+<h2>llama.cpp v0.5.0: nowa stabilna baza z MTP i poprawkami tensor-parallel</h2>
+<p><strong>Co się zmieniło:</strong> opublikowano v0.5.0. Release konsoliduje m.in. CUDA Graph dla MTP drafting, poprawkę tensor-parallel dla fused QKV, nowe modele, poprawki routera i linię ggml 0.25.x z RPC major v7.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> to dobry nowy punkt bazowy do A/B w homelabie. Nie traktuję wszystkich składowych PR-ów jako świeżych wydarzeń, bo część była już opisana wcześniej.</p>
+<p><strong>V100/SM70:</strong> brak benchmarku V100 w release notes. Na Volcie warto porównać z ostatnim znanym dobrym buildem zamiast zakładać wzrost.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> wpływ pośredni przez wcześniejsze poprawki MTP/tensor-parallel; brak nowego osobnego pomiaru tych modeli.</p>
+<div class="tags"><span class="tag">llama.cpp</span><span class="tag">v0.5.0</span><span class="tag">MTP</span><span class="tag">tensor-parallel</span><span class="tag">RPC v7</span></div>
+<div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.5.0">llama.cpp v0.5.0</a></div>
+</article>
+
+<article class="card"><div><span class="num">2</span><span class="status test">warto testować</span></div>
+<h2>CUDA: sparse Flash Attention wraca dla DSV4 prefill — do 1.42× przy bardzo długim kontekście</h2>
+<p><strong>Co się zmieniło:</strong> PR #29298 ponownie włącza sparse FA dla DSV4/GLM prefill, z poprawionym warunkiem batch-dependent i preferencją szerszego kernela. Decode pozostaje bez zmian.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> na DGX Spark DeepSeek4 IQ2_XXS: pp2048 przy d=65536 wzrósł 238.24→293.35 t/s (1.23×), a przy d=131072 172.75→244.46 t/s (1.42×). TG pozostał praktycznie bez zmian. Qwen4Exp w pokazanych testach był ~1.00×.</p>
+<p><strong>V100/SM70:</strong> brak testu Volty; nie przenoszę wyniku z DGX Spark.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> brak bezpośredniego testu. Neutralny wynik Qwen4Exp jest dodatkowym powodem, by nie zakładać zysku.</p>
+<div class="tags"><span class="tag">CUDA</span><span class="tag">sparse FA</span><span class="tag">DSV4</span><span class="tag">long context</span></div>
+<div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/pull/29298">PR #29298</a></div>
+</article>
+
+<article class="card"><div><span class="num">3</span><span class="status watch">obserwować</span></div>
+<h2>Unified KV + 2 sloty: PR usuwa setki ms scheduler re-reserve z multimodalnego decode</h2>
+<p><strong>Co się zmieniło:</strong> aktywny PR #28927 usuwa pełny <code>sched_reserve</code> przy przełączaniu <code>causal_attn</code>. mtmd robi to dwa razy na chunk obrazu, więc w wideo koszt kumuluje się.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> na RTX PRO 6000 Blackwell, Gemma 4 31B Q4_K_M, 2 sloty, <code>--kv-unified</code> + FA: 10-sekundowy klip przy n_ctx=131072: 10.46s→3.18s; przy n_ctx=262144: 18.2s→3.3s; pojedynczy image embedding decode 405ms→66ms. Token generation bez zmiany.</p>
+<p><strong>V100/SM70:</strong> host/scheduler-side, więc potencjalnie istotne, ale brak V100 testu.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> M-RoPE/Qwen VL jest wprost oznaczony przez autora jako nietestowany.</p>
+<div class="tags"><span class="tag">unified KV</span><span class="tag">multislot</span><span class="tag">mtmd</span><span class="tag">scheduler</span></div>
+<div class="source">Źródło: <a href="https://github.com/ggml-org/llama.cpp/pull/28927">PR #28927</a></div>
+</article>
+
+<article class="card"><div><span class="num">4</span><span class="status risk">uważać na regresję</span></div>
+<h2>ik_llama: CUDA race fix + IQ4_KS_R16, ale V100 pozostaje poza wspieranym sweet spotem</h2>
+<p><strong>Co się zmieniło:</strong> fork naprawił shared-memory race w <code>mmq_ids_helper</code> przez synchronizację warp. Równolegle rozwijany jest IQ4_KS_R16, a quantizer ma bezpieczniejszy fallback do IQ3_KT/IQ4_KT poniżej 4 bpw.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> race to correctness, nie kosmetyka. Nowe quanty są ciekawe przy ciasnym VRAM, ale bez A/B jakości/perf nie należy ich traktować jako automatycznej poprawy.</p>
+<p><strong>V100/SM70:</strong> README ik_llama deklaruje w pełni funkcjonalny i wydajny CUDA jako Turing+. Volta jest więc ścieżką eksperymentalną.</p>
+<p><strong>Qwen3.6/Qwen3.8:</strong> brak świeżego benchmarku tych modeli na V100.</p>
+<div class="tags"><span class="tag">ik_llama</span><span class="tag">CUDA correctness</span><span class="tag">MMQ</span><span class="tag">IQ4_KS_R16</span></div>
+<div class="source">Źródła: <a href="https://github.com/ikawrakow/ik_llama.cpp/commit/13493bdfaacd7e86b242ce2882e351f78b733bf5">race fix</a> · <a href="https://github.com/ikawrakow/ik_llama.cpp/commit/066e86648403fdabf4cf87eb728e200d617e48ce">IQ4_KS_R16</a> · <a href="https://github.com/ikawrakow/ik_llama.cpp">README</a></div>
+</article>
+
+<article class="card"><div><span class="num">5</span><span class="status test">warto testować</span></div>
+<h2>OpenViking ↔ Hermes: poprawione replace/remove pamięci i sender attribution</h2>
+<p><strong>Co się zmieniło:</strong> OpenViking poprawił bridge pamięci Hermesa tak, aby mirrorować replacementy i usunięcia, wymagać tożsamości committed entry i lepiej raportować błędy indeksowania. Osobna zmiana zachowuje nadawcę w przechwytywanych wiadomościach i dodaje presety pamięci gateway.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> ogranicza stale entries oraz błędne przypisanie pamięci w długowiecznych agentach.</p>
+<p><strong>V100/SM70 / Qwen:</strong> model- i GPU-agnostic.</p>
+<div class="tags"><span class="tag">OpenViking</span><span class="tag">Hermes</span><span class="tag">memory</span><span class="tag">gateway</span></div>
+<div class="source">Źródła: <a href="https://github.com/volcengine/OpenViking/commit/c2c6407314e1f5c32228ad2c0eb2a007e87afb13">replace/remove bridge</a> · <a href="https://github.com/volcengine/OpenViking/commit/9f21385993b2f27625eeee869ad9f074b955ebff">sender/presets</a></div>
+</article>
+
+<article class="card"><div><span class="num">6</span><span class="status test">warto testować</span></div>
+<h2>Qwen Audio Agent 2.0: full-duplex voice, lokalny S2S i natywny Hermes ACP</h2>
+<p><strong>Co się zmieniło:</strong> v2.0.0 przebudowuje runtime wokół unified client protocol i ACP/A2A; rozszerza voice/video frontendy, pamięć i narzędzia. Projekt deklaruje full-duplex realtime, naturalne interruption/barge-in i równoległe zadania backendowe.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> jest to warstwa orkiestracji dla pełnego voice agenta, nie pojedynczy model. Lokalny Hugging Face Speech-to-Speech pozwala konfigurować VAD/STT/LLM/TTS; Hermes jest wspierany przez Native ACP. MiniCPM-o 4.5 może być lokalnym frontendem z live video, ale bez tool calling.</p>
+<p><strong>VRAM / runtime / licencja:</strong> framework Apache-2.0. Nie ma jednej podanej wartości minimalnego/praktycznego VRAM — zależy od wybranych STT/LLM/TTS. Dokumentacja nie publikuje też jednej liczby TTFA dla lokalnego pipeline’u.</p>
+<p><strong>V100/SM70:</strong> brak specjalnej deklaracji Volta; kompatybilność trzeba oceniać per model/runtime. Qwen3.8 Omni Flash Realtime jest w tabeli jako frontend chmurowy, nie lokalny.</p>
+<div class="tags"><span class="tag">voice</span><span class="tag">full-duplex</span><span class="tag">barge-in</span><span class="tag">local S2S</span><span class="tag">Hermes ACP</span><span class="tag">Apache-2.0</span></div>
+<div class="source">Źródła: <a href="https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v2.0.0">v2.0.0</a> · <a href="https://github.com/QwenAudio/qwen-audio-agent">README</a></div>
+</article>
+
+<article class="card"><div><span class="num">7</span><span class="status test">warto testować</span></div>
+<h2>llama-swap: Tailcat default-deny i stop odporniejszy na wiszące pipe’y</h2>
+<p><strong>Co się zmieniło:</strong> Tailcat v0.7 przenosi allow-listę do HTTP, wspiera hot reload; pusta <code>tailcat.allow</code> oznacza teraz default-deny, a <code>*</code> jawnie wszystkich. <code>cmdStop</code> dostał WaitDelay oraz logowanie stdout/stderr, by proces potomny nie zawieszał stopu.</p>
+<p><strong>Dlaczego ma znaczenie:</strong> realny hardening i poprawa lifecycle w self-hosted routerze. Zmiana default-deny może wymagać korekty istniejącej konfiguracji.</p>
+<p><strong>V100/SM70 / Qwen:</strong> brak wpływu na kernel/throughput; dotyczy orchestration.</p>
+<div class="tags"><span class="tag">llama-swap</span><span class="tag">security</span><span class="tag">process lifecycle</span><span class="tag">Tailcat</span></div>
+<div class="source">Źródła: <a href="https://github.com/mostlygeek/llama-swap/commit/db466d9bff6df2071f79e142dc9b8bc12cf531ed">Tailcat</a> · <a href="https://github.com/mostlygeek/llama-swap/commit/111d2d33180c6d8db425b335e650f39b488ffd02">cmdStop</a></div>
+</article>
+
+<section class="todo"><h2>Dzisiaj warto zrobić</h2><ol>
+<li>Zbudować llama.cpp v0.5.0 na V100 z tą samą ścieżką CUDA 12.x i porównać PP/TG, VRAM oraz długi kontekst z ostatnim znanym dobrym buildem.</li>
+<li>Jeśli używasz mtmd + <code>--kv-unified</code> + wielu slotów, przetestować PR #28927 poza produkcją i zmierzyć image/video ingest oraz host compute buffer.</li>
+<li>Na ik_llama nie traktować V100 jako wspieranej ścieżki; nowe quanty testować tylko A/B.</li>
+<li>Przetestować OpenViking/Hermes replace/remove pamięci oraz dwa różne sender identity.</li>
+<li>Do voice homelabu sprawdzić Qwen Audio Agent 2.0 jako orkiestrator, licząc VRAM osobno dla VAD/STT + LLM + TTS.</li>
+<li>Po aktualizacji llama-swap sprawdzić <code>tailcat.allow</code>, bo pusta lista oznacza teraz default-deny.</li>
+</ol></section>
+
+<p class="foot">Pominięto kosmetykę i niepewne czasowo wpisy. LM Studio Bionic 1.1.6 jest datowany na 23.09, ale changelog nie podaje godziny publikacji, więc nie liczę go jako pewnego zdarzenia w ścisłym oknie 24 h. Nie znaleziono świeżego open-weight modelu obrazu/wideo ≤32 GB VRAM z mocniejszym sygnałem technicznym.</p>
+</div>
+<script>(function(){const r=document.documentElement,b=document.getElementById('themeToggle'),k='local-ai-theme',s=localStorage.getItem(k);if(s==='light')r.dataset.theme='light';b.addEventListener('click',()=>{if(r.dataset.theme==='light'){delete r.dataset.theme;localStorage.setItem(k,'dark')}else{r.dataset.theme='light';localStorage.setItem(k,'light')}})})();</script>
+</body></html>
