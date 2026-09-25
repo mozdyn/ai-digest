@@ -6,9 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 24 Sep 2026 08:19:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 08:45:00 +0200</lastBuildDate>
     
-        <item>
+            <item>
+      <title>Local AI Daily Radar — 2026-09-25</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-25.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-25.html</guid>
+      <pubDate>Fri, 25 Sep 2026 08:45:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>7 tematów: ninfer-v100 long-context MTP na V100, v3 artifacts/Claude Code compatibility, Qwen3.8 CUDA fusion, tensor-split fused QKV, prompt-cache sleep/wake, ik_llama fixes i OpenViking↔Hermes memory.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-25.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>NINFER-V100</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MTP</category><category>PROMPT-CACHE</category><category>IK-LLAMA</category><category>HERMES</category><category>OPENVIKING</category>
+    </item>
+<item>
       <title>Local AI Daily Radar — 2026-09-24</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-24.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-24.html</guid>
