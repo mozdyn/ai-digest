@@ -6,9 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 25 Sep 2026 08:45:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 07:57:00 +0200</lastBuildDate>
     
-            <item>
+                <item>
+      <title>Local AI Daily Radar — 2026-09-26</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-26.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-26.html</guid>
+      <pubDate>Sat, 26 Sep 2026 07:57:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>9 tematów: GDN chunked dla Qwen3.6/Qwen3.8, unified-KV/multislot regression watch, rollback state fix, CPU k-quants, ik_llama RPC async, llama-swap v258, Hermes local runtime, OpenViking profiles i LFM2-Audio.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-26.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.6</category><category>QWEN3.8</category><category>UNIFIED-KV</category><category>MTP</category><category>NINFER-V100</category><category>IK-LLAMA</category><category>LLAMA-SWAP</category><category>HERMES</category><category>OPENVIKING</category><category>AUDIO</category>
+    </item>
+<item>
       <title>Local AI Daily Radar — 2026-09-25</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-25.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-25.html</guid>
