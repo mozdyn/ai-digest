@@ -6,9 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 26 Sep 2026 10:20:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 10:37:00 +0200</lastBuildDate>
 
-    <item>
+        <item>
+      <title>Local AI Daily Radar — 2026-09-27</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-27.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-27.html</guid>
+      <pubDate>Sun, 27 Sep 2026 10:37:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>8 tematów: unified-KV multi-seq dla Qwen3.8, rollback auto-fit VRAM, state-restore correctness, RPC graph reuse i slab quantization w ik_llama, OpenViking memory consolidation, Hermes MCP spillover oraz lokalny TTS runtime.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-27.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>UNIFIED-KV</category><category>MULTISLOT</category><category>IK-LLAMA</category><category>RPC</category><category>OPENVIKING</category><category>HERMES</category><category>LLAMA-SWAP</category>
+    </item>
+<item>
       <title>Local AI Weekly — 2026-W39</title>
       <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W39.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/weekly/2026-W39.html</guid>
