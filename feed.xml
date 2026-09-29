@@ -6,9 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 28 Sep 2026 08:32:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 14:15:00 +0200</lastBuildDate>
 
-            <item>
+                <item>
+      <title>Local AI Daily Radar — 2026-09-29</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-29.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-29.html</guid>
+      <pubDate>Tue, 29 Sep 2026 14:15:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>8 tematów: V100/SM70 vision Flash Attention correctness watch, Qwen3.8-Flash Vulkan fusion, multimodal scheduler i embeddings, ik_llama Prism ternary/MTP, OpenViking reindex, Hermes voice echo-guard oraz Holo4 GGUF.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-29.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>VULKAN</category><category>IK-LLAMA</category><category>MTP</category><category>OPENVIKING</category><category>HERMES</category><category>VOICE</category><category>HOLO4</category><category>MULTIMODAL</category>
+    </item>
+<item>
       <title>Local AI Daily Radar — 2026-09-28</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-28.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-28.html</guid>
