@@ -6,9 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 29 Sep 2026 14:15:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 11:30:00 +0200</lastBuildDate>
 
-                <item>
+                    <item>
+      <title>Local AI Daily Radar — 2026-09-30</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-30.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-30.html</guid>
+      <pubDate>Wed, 30 Sep 2026 11:30:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>10 tematów: SM70 Flash Attention correctness, Qwen3.8 quantization memory, Qwen3.6 Vulkan GDN, MoE tiling, IQ4_NL CUDA watch, OpenViking retrieval, Hermes voice, Humaneness Voice Small i Ollama capabilities.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-09-30.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>IK-LLAMA</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.6</category><category>QWEN3.8</category><category>OPENVIKING</category><category>HERMES</category><category>VOICE</category><category>OLLAMA</category>
+    </item>
+<item>
       <title>Local AI Daily Radar — 2026-09-29</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-09-29.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-09-29.html</guid>
