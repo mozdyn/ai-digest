@@ -6,7 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 30 Sep 2026 11:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:57:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-01</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-01.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-01.html</guid>
+      <pubDate>Thu, 01 Oct 2026 08:57:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>9 tematów: bezpośredni +3.17% decode Qwen3.8 na V100, llama-swap v261 z poprawką sm_70, DFlash2 concurrency, MTP dla Qwen3.8-Flash-Next, unified KV/multisession, tensor split, OpenViking, Hermes voice i Nev-2B.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-01.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MTP</category><category>UNIFIED-KV</category><category>LLAMA-SWAP</category><category>OPENVIKING</category><category>HERMES</category><category>VOICE</category><category>OLLAMA</category>
+    </item>
+
 
                     <item>
       <title>Local AI Daily Radar — 2026-09-30</title>
