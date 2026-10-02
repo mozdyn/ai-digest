@@ -6,7 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 01 Oct 2026 08:57:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 09:07:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-02</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-02.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-02.html</guid>
+      <pubDate>Fri, 02 Oct 2026 09:07:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>11 tematów: Volta Flash Attention fix, upstream +3.17% V100 MMVQ, unified KV rows, Qwen3.8 memory cuts i MTP, dual-V100 all-reduce, anyei V100 tuning, NInfer Host-tier crash, ik_llama CUDA quantization, Hermes hardening i Clef-flash.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-02.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MTP</category><category>UNIFIED-KV</category><category>MULTI-GPU</category><category>NINFER</category><category>IK-LLAMA</category><category>HERMES</category><category>CLEF</category>
+    </item>
+
 
     <item>
       <title>Local AI Daily Radar — 2026-10-01</title>
