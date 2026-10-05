@@ -6,7 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 03 Oct 2026 23:48:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 08:52:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-05</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-05.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-05.html</guid>
+      <pubDate>Mon, 05 Oct 2026 08:52:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>9 tematów: V100/Qwen3.8 crash nadal otwarty, NInfer preemption i shared KV, qwen4exp graph-shape fix, MoE MMQ correctness, long-context FA, MMVF small-batch, Apple DFlash2, Hermes b11370 i OpenViking Quick Local.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-05.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>NINFER</category><category>KV-CACHE</category><category>MOE</category><category>HERMES</category><category>OPENVIKING</category>
+    </item>
+
 
     <item>
       <title>Local AI Weekly — 2026-W40</title>
