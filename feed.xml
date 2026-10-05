@@ -19,6 +19,30 @@
       ]]></description>
       <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>NINFER</category><category>KV-CACHE</category><category>MOE</category><category>HERMES</category><category>OPENVIKING</category>
     </item>
+    <item>
+      <title>Local AI Daily Radar — 2026-10-04</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-04.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-04.html</guid>
+      <pubDate>Sun, 04 Oct 2026 08:03:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>9 tematów: Qwen3.8 lightning indexer, n-gram speculative regression, SM70 Q2_K spills, MoE PCIe transfers, hybrid prompt-cache, llama-swap v262, Hermes Linux CUDA, NInfer telemetry i OpenLive voice+vision.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-04.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>SPECULATIVE</category><category>MOE</category><category>NINFER</category><category>HERMES</category><category>VOICE</category>
+    </item>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-03</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-03.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-03.html</guid>
+      <pubDate>Sat, 03 Oct 2026 08:03:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>11 tematów: Qwen3.8-Flash-Next memory cut, GPU cache dla host-offloaded MoE, CUDA KV correctness, probabilistic speculative decoding, MoE kernels, ik_llama MMQ i KV fixes, System One, NInfer sparse KV, Hermes fixes i AstaBrief 8B.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-03.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MTP</category><category>MOE</category><category>IK-LLAMA</category><category>NINFER</category><category>HERMES</category><category>ASTABRIEF</category>
+    </item>
+
 
 
     <item>
