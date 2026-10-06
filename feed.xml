@@ -6,7 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 05 Oct 2026 08:52:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 10:09:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-06</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-06.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-06.html</guid>
+      <pubDate>Tue, 06 Oct 2026 10:09:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>11 tematów: Qwen3.6 multi-GPU regression fix, Qwen3.8 QSA VRAM regression, shared k-pool race fix, KV save/restore metadata, DFlash prefill regression, NVFP4 MMQ, NInfer KV precision tail, ik_llama IQ4_KS_R16 i Nanbeige4.2, OpenViking concurrency oraz Hermes gateway/memory/voice fixes.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-06.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.6</category><category>QWEN3.8</category><category>KV-CACHE</category><category>MOE</category><category>NINFER</category><category>IK-LLAMA</category><category>OPENVIKING</category><category>HERMES</category>
+    </item>
+
 
     <item>
       <title>Local AI Daily Radar — 2026-10-05</title>
