@@ -6,7 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 06 Oct 2026 10:09:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 10:43:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-07</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-07.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-07.html</guid>
+      <pubDate>Wed, 07 Oct 2026 10:43:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>10 tematów: 2× V100 Qwen3.8 pcie-20261006, llama.cpp-v100 1.1.1, RPC tensor split, qwen4exp MTP plumbing, EmbeddingGemma 2, K2 Horizon, Hermes local stack, OpenViking Context Gateway, Strata reliability i Ollama SystemOne fix.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-07.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MOE</category><category>MTP</category><category>MULTI-GPU</category><category>STRATA</category><category>HERMES</category><category>OPENVIKING</category>
+    </item>
+
 
     <item>
       <title>Local AI Daily Radar — 2026-10-06</title>
