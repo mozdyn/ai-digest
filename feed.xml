@@ -6,7 +6,20 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 08 Oct 2026 08:54:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 12:26:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-09</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-09.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-09.html</guid>
+      <pubDate>Fri, 09 Oct 2026 12:26:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>13 tematów: multi-GPU GPU MoE cache w llama.cpp, slot checkpoint save/restore, CUDA MMQ/TOP_K fixes, Strata single-V100 prefill observation i batch-groups cache regression, NInfer host-cache/parallel-session issues, OpenViking Gateway i pozostałe istotne zmiany local AI.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-09.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MOE</category><category>KV-CACHE</category><category>STRATA</category><category>NINFER</category><category>OPENVIKING</category>
+    </item>
+
 
     <item>
       <title>Local AI Daily Radar — 2026-10-08</title>
