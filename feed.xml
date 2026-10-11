@@ -6,9 +6,33 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 09 Oct 2026 12:26:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 22:16:00 +0200</lastBuildDate>
+
+    
+    <item>
+      <title>Local AI Daily Radar — 2026-10-11</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-11.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-11.html</guid>
+      <pubDate>Sun, 11 Oct 2026 22:16:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>14 tematów: llama.cpp RAM-cache/slot correctness fix, Qwen3.8 MTP image crash watch, Strata long-session checkpoint thrash i PCIe expert tuning, NInfer JSON corruption watch, GenerelSchwerz VRAM savings, Hermes reasoning compaction i pozostałe istotne zmiany local AI.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-11.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>STRATA</category><category>NINFER</category><category>HERMES</category>
+    </item>
 
     <item>
+      <title>Local AI Daily Radar — 2026-10-10</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-10.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-10.html</guid>
+      <pubDate>Sat, 10 Oct 2026 07:58:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>15 tematów: nowe pomiary single-V100 w Strata, eksperymentalne WMMA MoE dla SM70, long-context prefill crash watch, NInfer DFlash2/KV regressions, llama.cpp sampling graph i MXFP4 SYCL, remote stage, expert parallel oraz multimodalne zmiany.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-10.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MOE</category><category>STRATA</category><category>NINFER</category>
+    </item>
+<item>
       <title>Local AI Daily Radar — 2026-10-09</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-09.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-09.html</guid>
