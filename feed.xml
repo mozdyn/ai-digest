@@ -6,7 +6,7 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 13 Oct 2026 14:05:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 11:11:00 +0200</lastBuildDate>
 
     <item>
       <title>Local AI Weekly — 2026-W41</title>
@@ -24,7 +24,19 @@
     
     
     
+    
     <item>
+      <title>Local AI Daily Radar — 2026-10-14</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-14.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-14.html</guid>
+      <pubDate>Wed, 14 Oct 2026 11:11:00 +0200</pubDate>
+      <description><![CDATA[
+        <p>22 tematy: nowe benchmarki single-V100 i multi-V100 w Strata, BF16 checkpoints, unified KV/multi-session watch w llama.cpp, Strata 0.1.44.1 z Qwen3.6 support, Hermes Agent 0.22.0, OpenViking/LiveKit fixes oraz pozostałe istotne zmiany local AI.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-14.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.6</category><category>QWEN3.8</category><category>STRATA</category><category>NINFER</category><category>HERMES</category><category>OPENVIKING</category>
+    </item>
+<item>
       <title>Local AI Daily Radar — 2026-10-13</title>
       <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-13.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-13.html</guid>
