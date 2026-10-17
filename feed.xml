@@ -6,7 +6,17 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 16 Oct 2026 13:32:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 11:31:00 +0200</lastBuildDate>
+
+    <item>
+      <title>Local AI Daily Radar — 2026-10-17</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/daily/2026-10-17.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-10-17.html</guid>
+      <pubDate>Sat, 17 Oct 2026 11:31:00 +0200</pubDate>
+      <description><![CDATA[<p>18 tematów: Strata 2×V100, NInfer-v100 Qwen3.8, llama.cpp unified KV i multislot, Hermes Agent, OpenViking, audio.cpp.</p><p><a href="https://mozdyn.github.io/ai-digest/reports/daily/2026-10-17.html">Otwórz raport</a></p>]]></description>
+      <category>LOCAL-AI</category><category>LLAMA.CPP</category><category>V100</category><category>SM70</category><category>NINFER</category><category>HERMES</category>
+    </item>
+
 
     <item>
       <title>Local AI Daily Radar — 2026-10-16</title>
