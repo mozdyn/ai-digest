@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="pl" data-theme="dark">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark light">
+<title>Local AI Daily Radar - 23.10.2026</title>
+<style>
+:root{--bg:#07101c;--surface:#0d1a2b;--surface2:#102239;--edge:#253851;--ink:#e9f1fa;--muted:#9db0c6;--blue:#63bdff;--sky:#99d6ff;--green:#45d4a1;--amber:#f2c67a;--red:#ff8991;--shadow:0 16px 45px rgba(0,0,0,.18)}
+html[data-theme="light"]{--bg:#f3f7fc;--surface:#fff;--surface2:#f0f6fc;--edge:#d8e3ee;--ink:#102037;--muted:#506782;--blue:#056baa;--sky:#155d99;--green:#0a8361;--amber:#a05a04;--red:#aa3544;--shadow:0 12px 30px rgba(23,48,89,.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.58 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;overflow-wrap:anywhere}
+body:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;height:670px;background:radial-gradient(ellipse at 16% 13%,rgba(35,149,247,.20),transparent 47%),radial-gradient(ellipse at 85% 12%,rgba(55,179,144,.11),transparent 45%);pointer-events:none}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:4px;border-radius:5px}
+.wrap{max-width:1090px;margin:0 auto;padding:0 26px 72px}.topbar{display:flex;justify-content:space-between;align-items:center;padding:22px 0 12px;gap:14px}.brand{font-size:.83rem;color:var(--sky);letter-spacing:.14em;font-weight:800;text-transform:uppercase}.brand b{color:var(--ink)}
+button{border:1px solid var(--edge);border-radius:999px;background:var(--surface);color:var(--ink);font:inherit;padding:9px 16px;cursor:pointer;font-size:.84rem}
+.hero{position:relative;isolation:isolate;padding:36px 36px 32px;background:linear-gradient(122deg,rgba(28,82,143,.18),rgba(20,56,87,.05)),var(--surface);border:1px solid var(--edge);border-radius:21px;box-shadow:var(--shadow)}.eyebrow{font-size:.77rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--green)}.hero h1{font-size:clamp(2rem,5.6vw,3.5rem);letter-spacing:-.045em;line-height:1.07;margin:14px 0}.hero p{color:var(--muted);max-width:810px;margin:0 0 21px}.meta{display:flex;flex-wrap:wrap;gap:9px}.pill{padding:6px 11px;border-radius:999px;background:var(--surface2);border:1px solid var(--edge);font-size:.81rem;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:15px 0 28px}.stat{border:1px solid var(--edge);background:var(--surface);padding:16px 18px;border-radius:15px}.stat strong{display:block;font-size:1.8rem;line-height:1.08;letter-spacing:-.04em}.stat span{display:block;color:var(--muted);font-size:.76rem;margin-top:6px}
+.intro{border-left:3px solid var(--blue);padding:3px 0 3px 15px;margin:0 0 26px;color:var(--muted)}.intro strong{color:var(--ink)}h2.section-title{font-size:1.48rem;letter-spacing:-.025em;margin:30px 0 14px}
+.stories{display:grid;grid-template-columns:minmax(0,1fr);gap:13px}.story{position:relative;border:1px solid var(--edge);border-radius:17px;background:var(--surface);padding:23px 26px 18px;box-shadow:0 5px 15px rgba(0,0,0,.025);break-inside:avoid}.story:before{content:"";position:absolute;inset:16px auto 16px 0;width:3px;border-radius:0 6px 6px 0;background:var(--blue)}.story.test:before{background:var(--green)}.story.risk:before{background:var(--red)}.story.watch:before{background:var(--amber)}
+.story-top{display:flex;align-items:flex-start;gap:16px}.no{display:flex;align-items:center;justify-content:center;min-width:40px;height:40px;border:1px solid var(--edge);border-radius:12px;background:var(--surface2);color:var(--sky);font-size:.98rem;font-weight:800}.headline{flex:1;min-width:0}.headline .date{font-size:.75rem;color:var(--muted);font-weight:700;margin:0 0 2px}.headline h2{font-size:1.20rem;line-height:1.3;letter-spacing:-.016em;margin:0}.status{font-size:.74rem;white-space:nowrap;border:1px solid currentColor;border-radius:999px;padding:5px 10px;font-weight:750;letter-spacing:.005em}.test .status{color:var(--green)}.watch .status{color:var(--amber)}.risk .status{color:var(--red)}
+.lead{margin:15px 0 13px;color:var(--ink)}.facts{display:grid;grid-template-columns:1fr 1fr;gap:8px 19px;margin:0}.facts div{border-radius:9px;background:var(--surface2);padding:10px 13px}.facts div:first-child{grid-column:1/-1}.facts dt{font-size:.73rem;color:var(--sky);font-weight:750;text-transform:uppercase;letter-spacing:.035em;margin-bottom:3px}.facts dd{font-size:.895rem;color:var(--muted);margin:0;line-height:1.52}.extra{margin:10px 0 0;color:var(--muted);font-size:.84rem}.extra b{color:var(--ink)}.story-bottom{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--edge);margin-top:15px;padding-top:13px}.tags,.sources{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.tag{background:rgba(85,137,194,.12);border:1px solid var(--edge);border-radius:999px;padding:2px 9px;color:var(--muted);font-size:.73rem;font-weight:650}.sources a{font-weight:700;font-size:.79rem;padding:4px 7px;border-radius:5px}.srclabel{color:var(--muted);font-size:.73rem;font-weight:700}
+.todo,.method{padding:23px 26px;border:1px solid var(--edge);background:var(--surface);border-radius:17px;margin-top:16px}.todo h2,.method h2{margin:0 0 12px;font-size:1.24rem}.todo ol{margin:0;padding-left:23px}.todo li{padding:4px 0}.method p{margin:8px 0;color:var(--muted)}.method strong{color:var(--ink)}.foot{margin-top:24px;text-align:center;color:var(--muted);font-size:.77rem}
+@media(max-width:770px){.wrap{padding:0 14px 42px}.hero{padding:25px 20px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.story{padding:18px 15px 15px}.story-top{flex-wrap:wrap;gap:10px}.status{margin-left:50px}.facts{grid-template-columns:1fr}.facts div:first-child{grid-column:auto}.story-bottom{display:block}.sources{margin-top:10px}.headline h2{font-size:1.12rem}}@media(max-width:450px){.stats{gap:7px}.stat{padding:12px}.stat strong{font-size:1.5rem}.hero h1{font-size:1.94rem}.status{margin-left:0}.no{min-width:34px;height:34px}.story-top{align-items:flex-start}}
+@media print{@page{size:A4;margin:14mm}html,html[data-theme="light"]{--bg:#fff;--surface:#fff;--surface2:#f5f7fb;--edge:#d5dde6;--ink:#151c28;--muted:#3d4658;--blue:#125f93;--sky:#145a8c;--green:#137054;--amber:#865312;--red:#9f3142}body{background:#fff!important;color:#151c28;font-size:10pt}body:before{display:none}.wrap{max-width:none;padding:0}.hero{box-shadow:none;padding:14px 18px}.hero h1{font-size:26pt}.stats{margin:9px 0 15px;gap:8px}.stat{padding:9px 10px}.stat strong{font-size:18pt}button{display:none}.story{padding:12px 15px;break-inside:avoid;box-shadow:none;page-break-inside:avoid}.stories{gap:9px}.facts dt{font-size:7pt}.facts dd{font-size:9pt}.lead{font-size:9.6pt}.sources a{font-size:8pt;color:#175f95}.todo,.method{break-inside:avoid}.tag,.pill{print-color-adjust:exact;-webkit-print-color-adjust:exact}a{color:#165b8d}}
+</style></head>
+<body><div class="wrap">
+<header class="topbar"><div class="brand">LOCAL <b>AI</b> RADAR <span aria-hidden="true"> / </span> DAILY</div><button id="theme-toggle" type="button" aria-label="Przełącz motyw">Jasny motyw</button></header>
+<section class="hero"><div class="eyebrow">TECHNICAL SIGNAL / NOT RELEASE-NOTE NOISE</div><h1>Local AI Daily Radar<br>23 października 2026</h1><p>Dzienny przegląd istotnych zmian w local AI i self-hostingu. Priorytet: Tesla V100 32 GB PCIe, Volta/SM70, llama.cpp, NInfer, Project Maya, MoE oraz lokalna multimodalność do 32 GB VRAM.</p><div class="meta"><span class="pill">Okno: 22.10 08:04 - 23.10 08:04 CEST</span><span class="pill">Źródła: upstream / commity / PR / issues</span><span class="pill">Brak publikacji na GitHub</span></div></section>
+<section class="stats" aria-label="Statystyki raportu"><div class="stat"><strong>23</strong><span>wybrane sygnały techniczne</span></div><div class="stat"><strong>33</strong><span>unikalne linki źródłowe</span></div><div class="stat"><strong>11</strong><span>warto testować</span></div><div class="stat"><strong>12</strong><span>obserwować / regresje</span></div></section>
+<p class="intro"><strong>Weryfikacja sprzętu:</strong> jedyny nowy bezpośredni pomiar SM70 w tym zestawie pochodzi z <strong>Titan V</strong>, nie z Tesla V100 32 GB PCIe. Dane z RTX 5090, RTX PRO 6000, GB300, Strix Halo i innych architektur są oznaczone; nie są prognozą wyniku V100. PR nie jest wydaniem, dopóki nie został scalony.</p>
+<h2 class="section-title">Zmiany warte uwagi</h2><main class="stories" aria-label="Tematy dnia"><article class="story test" aria-labelledby="s1">
+      <div class="story-top"><span class="no">01</span><div class="headline"><div class="date">23.10, PR #2740 scalony 07:01 CEST</div><h2 id="s1">ik_llama.cpp: szybsze MMVQ na SM70 - pomiar na Titan V</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">MMVQ dla jednokolumnowego decode wykorzystuje dwa warpy zamiast czterech: Q3_K poniżej Ampere i Q2_K poniżej Turing. Włączono zmiany w upstream forka.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Bezpośrednie testy na Titan V (sm_70): Q3_K_M 90,92 -&gt; 97,58 tok/s (+7,3%), Q2_K 134,84 -&gt; 143,62 tok/s (+6,5%); Llama 3.1 8B, tg128, jeden GPU. To najbardziej konkretny dziś sygnał wydajnościowy dla Volty.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Titan V potwierdza kod SM70, ale to NIE jest pomiar na Tesla V100 32 GB PCIe. Warto sprawdzić pojedynczą V100 i rzeczywiste ścieżki GEMV dla wybranego quantu.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Wpływ na Qwen3.6/Qwen3.8 jest pośredni: zmieniają się kernela quantów, nie loader lub MoE; brak pomiaru tych rodzin.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">SM70</span><span class="tag">CUDA</span><span class="tag">GEMV</span><span class="tag">Q2_K</span><span class="tag">Q3_K</span><span class="tag">fork</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ikawrakow/ik_llama.cpp/pull/2740" target="_blank" rel="noopener noreferrer">PR #2740 / wyniki Titan V <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story risk" aria-labelledby="s2">
+      <div class="story-top"><span class="no">02</span><div class="headline"><div class="date">22.10, issue #419 otwarte 22:27 CEST</div><h2 id="s2">NInfer: błąd rezerwacji KV w testach Qwen3.8</h2></div><span class="status">uważać na regresję</span></div>
+      <p class="lead">Zgłoszono błąd KVHistoryStore::prepare_write przy przekroczeniu granicy strony podczas replay. Dwa testy integracyjne padają na qwen3_8_27b.ninfer w INT8 i NVFP4.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Problem dotyczy wspólnego kodu zarządzania historią KV i potencjalnie sesji z odzyskiwaniem kontekstu. Autor NIE zaobserwował awarii w produkcyjnym serving mimo testów prefix cache, MTP i DFlash2. Zgłoszenie pochodzi z portu Windows.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak odtworzenia na V100 32 GB PCIe. W obserwowanym oknie brak nowych commitów w Neroued/ninfer oraz wskazanych forkach V100; brak nowego bezpośredniego benchmarku V100.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Bezpośrednio Qwen3.8-27B (dense) w dwóch formatach. Nie ma potwierdzenia dla Qwen3.6 ani wariantów MoE.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">NInfer</span><span class="tag">KV cache</span><span class="tag">Qwen3.8</span><span class="tag">testy</span><span class="tag">V100 watch</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/Neroued/ninfer/issues/419" target="_blank" rel="noopener noreferrer">Upstream issue #419 <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/Neroued/ninfer" target="_blank" rel="noopener noreferrer">Upstream NInfer <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s3">
+      <div class="story-top"><span class="no">03</span><div class="headline"><div class="date">22.10, wydanie 15:13 CEST</div><h2 id="s3">Project Maya v1.1.22: Maya-XS dla DeepSeek-V4.1-Flash</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">Dodano Maya-XS: około 120,6 GB pamięci dla 748B MoE, włącznie z 2-bitowym drafterem; eksperci około 1,6 bita (IQ1_S), ścieżki IQ1_S/IQ1_M na NVIDIA, AMD i CPU. Engram Q6_K (161 GB) pozostaje na SSD.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>To istotny eksperyment z ekstremalnym quantem i trójpoziomowym systemem pamięci, a NIE model mieszczący się w 32 GB VRAM. Wymaga dużego RAM i NVMe.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Potencjalnie uruchamialne hybrydowo na V100 z odpowiednim hostem; brak pomiaru pojedynczej V100 32 GB dla Maya-XS i brak podstaw do prognozowania tok/s.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Nie jest to zmiana wsparcia dla Qwen3.6/Qwen3.8. Bezpośrednim celem jest DeepSeek-V4.1-Flash.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">Project Maya</span><span class="tag">MoE</span><span class="tag">IQ1_S</span><span class="tag">CPU/RAM/NVMe</span><span class="tag">DeepSeek</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/mw00/project-maya/releases/tag/v1.1.22" target="_blank" rel="noopener noreferrer">Release v1.1.22 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s4">
+      <div class="story-top"><span class="no">04</span><div class="headline"><div class="date">22.10, commit #352 / v1.1.22</div><h2 id="s4">Project Maya: cache ekspertów GLM ogranicza I/O SSD</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Po zakończeniu prefill mechanizm wypożyczania ekspertów utrzymuje w RAM częściej używane bloki. Autor raportuje o 40% mniej odczytów dyskowych po świeżym promptcie.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Dla MoE z ograniczonym VRAM wąskim gardłem może być nie mnożenie macierzy, lecz przewidywalność cache i opóźnienia NVMe/PCIe.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Interesujące dla jednego V100 z ekspertami w RAM/NVMe, lecz brak bezpośrednich danych na V100; procentu nie przenosić na tę kartę.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Dotyczy GLM-5.3-Flash, nie Qwen3.6/Qwen3.8.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">Project Maya</span><span class="tag">cache ekspertów</span><span class="tag">MoE</span><span class="tag">RAM</span><span class="tag">NVMe</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/mw00/project-maya/commit/d5193587358c63b1c1a3fab4be0d2165566670e7" target="_blank" rel="noopener noreferrer">Commit GLM RAM residency <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/mw00/project-maya/releases/tag/v1.1.22" target="_blank" rel="noopener noreferrer">Release v1.1.22 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s5">
+      <div class="story-top"><span class="no">05</span><div class="headline"><div class="date">22.10, wydania 18:54 i 23:05 CEST</div><h2 id="s5">Project Maya v1.1.23/24: TP, Windows i granica sm_80</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">W v1.1.23 naprawiono zatrzymanie DeepSeek po 32K tokenów na AMD i RTX 20. V1.1.24 usuwa zawieszenie pierwszego promptu na co najmniej dwóch GPU NVIDIA pod Windows i dodaje staging własnych wierszy ekspertów przez członka grupy TP.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>W nowym v1.1.24 attention na tensor cores NVIDIA jest wyraźnie dla RTX 30+ (sm_80+). Nie wolno zakładać, że ta optymalizacja uruchamia się na SM70.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Pierwszy błąd &gt;32K według wydawcy nie dotyczy V100; poprawka Windows dotyczy multi-GPU, nie pojedynczej karty. Brak nowych pomiarów jedno-GPU V100 dla tych zmian.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Bez bezpośredniego związku z Qwen3.6/3.8; ścieżka DeepSeek.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">Project Maya</span><span class="tag">tensor parallel</span><span class="tag">Windows</span><span class="tag">sm_80+</span><span class="tag">regresja</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/mw00/project-maya/releases/tag/v1.1.23" target="_blank" rel="noopener noreferrer">Release v1.1.23 <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/mw00/project-maya/releases/tag/v1.1.24" target="_blank" rel="noopener noreferrer">Release v1.1.24 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s6">
+      <div class="story-top"><span class="no">06</span><div class="headline"><div class="date">22.10, PR #30971 otwarty 11:48 CEST</div><h2 id="s6">llama.cpp: prototyp adaptacyjnego MoE w jednym grafie</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">Propozycja single-graph adaptive MoE offload łączy eksperymentalne decyzje CPU/GPU i routing ekspertów; autor zgłasza, że w swojej konfiguracji R9700 + 128 GB RAM przebija decode Strata.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>To ambitny eksperyment z wykonywaniem ekspertów, ale sam autor określa PR jako dyskusyjny architektonicznie. Nie jest scalony; brak porównywalnej tabeli dla V100.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Nie potwierdzono działania ani przewagi na CUDA SM70, więc nie traktować tego jako gotowego zamiennika Strata lub NInfer.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Efekt na Qwen3.6/Qwen3.8 MoE może być pośredni, ale nie jest potwierdzony pomiarem.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">MoE</span><span class="tag">expert offload</span><span class="tag">CPU/GPU</span><span class="tag">PR</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30971" target="_blank" rel="noopener noreferrer">PR #30971 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s7">
+      <div class="story-top"><span class="no">07</span><div class="headline"><div class="date">22.10, PR #30966 aktywny</div><h2 id="s7">llama.cpp: missed experts na CPU i tuner cache MoE</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">PR uruchamia nietrafionych ekspertów cache na CPU zgodnie z --moe-cache-cpu-share i dodaje skrypt moe-cache-tune.py do znalezienia kombinacji VRAM cache i udziału CPU.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Przykładowe testy Qwen3.8-Flash-Next-IQ4_NL pokazują dużą wrażliwość na parametry; przy 6464 MiB cache wynik 24,2 tok/s (share 0) vs 47,6 tok/s (share 0,95). Nie należy uogólniać na każdy CPU/GPU.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Potencjalnie istotne na V100 32 GB przy CPU offload, lecz nie ma podanych bezpośrednich pomiarów V100. PR otwarty; skrypt może być dobrym protokołem A/B.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Dotyczy bezpośrednio Qwen3.8-Flash-Next MoE; Qwen3.6 niezweryfikowany.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">MoE</span><span class="tag">CPU experts</span><span class="tag">cache</span><span class="tag">Qwen3.8</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30966" target="_blank" rel="noopener noreferrer">PR #30966 i tabela testów <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s8">
+      <div class="story-top"><span class="no">08</span><div class="headline"><div class="date">22.10, PR #30970 otwarty 11:40 CEST</div><h2 id="s8">llama.cpp: --slot-attach współdzieli komórki unified KV</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">Przy unified KV nowy slot ma przejmować wspólny prefiks z innego slotu przez seq_cp, bez kopiowania komórek. Dla modeli hybrydowych PR dodaje punkty kontrolne rozgałęzienia konwersacji.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>To potencjalnie ważny kierunek dla wielu równoległych sesji o wspólnym system promptcie: mniejsze powielanie KV, niższa presja na VRAM/RAM.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>PR otwarty, brak pomiarów jednej V100 32 GB i brak potwierdzenia wydajności serwera przy obciążeniu PCIe.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Wpływ na Qwen3.6/Qwen3.8 hybrydowe możliwy, ale nie wykazano testów na tych rodzinach.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">unified KV</span><span class="tag">multislot</span><span class="tag">prefix sharing</span><span class="tag">server</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30970" target="_blank" rel="noopener noreferrer">PR #30970 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story risk" aria-labelledby="s9">
+      <div class="story-top"><span class="no">09</span><div class="headline"><div class="date">22.10, PR #30997 otwarty 21:45 CEST</div><h2 id="s9">llama.cpp: utrata RAM prompt cache przy zmianie slotu</h2></div><span class="status">uważać na regresję</span></div>
+      <p class="lead">Przy -kvu, --cache-ram i co najmniej 2 slotach przywrócenie cache promptu może się nie udać, bo bezczynny slot trzyma komórki KV. PR zapisuje/czyści bezczynne sloty i ponawia restore.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>W reprodukcji CPU zamiast ponownego przetwarzania 3152 tokenów poprawka odzyskuje 3126 i liczy 26; w zgłoszeniu agent po background job miał 114-150 sekund na turę zamiast ok. 2 sekund.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Istotne również dla V100 przy małym budżecie KV, ale PR nie był testowany lokalnie na CUDA; nie publikować jako naprawy produkcyjnej.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Zachowanie istotne pośrednio dla Qwen3.6/Qwen3.8 przy długich kontekstach i wspólnych prefiksach; brak bezpośredniego testu.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">RAM cache</span><span class="tag">unified KV</span><span class="tag">multislot</span><span class="tag">regresja</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30997" target="_blank" rel="noopener noreferrer">PR #30997 <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/ggml-org/llama.cpp/issues/30961" target="_blank" rel="noopener noreferrer">Issue #30961 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s10">
+      <div class="story-top"><span class="no">10</span><div class="headline"><div class="date">22.10, PR #30986 otwarty 16:56 CEST</div><h2 id="s10">llama.cpp: gather rozproszonego KV do host RAM na CUDA</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">Nowa ścieżka scala rozproszone odczyty GPU KV cache do mapowanej pamięci hosta w jednej operacji gather zamiast szeregu cudaMemcpyAsync dla fragmentów. Dotyczy zapisu nieaktywnego slotu do RAM.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Pod obciążeniem wielosesyjnym transfery PCIe i synchronizacje mogą wywoływać pauzy w dostarczaniu tokenów innym użytkownikom.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Szczególnie warte zbadania na PCIe V100 32 GB, ale PR jest w fazie dyskusji i brak pomiaru transferów/TTFT na SM70.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Wpływ na Qwen3.6/Qwen3.8 tylko pośredni przez wspólny cache i serwer.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">CUDA</span><span class="tag">PCIe</span><span class="tag">host KV</span><span class="tag">multislot</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30986" target="_blank" rel="noopener noreferrer">PR #30986 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s11">
+      <div class="story-top"><span class="no">11</span><div class="headline"><div class="date">22.10, PR #30992 otwarty 19:21 CEST</div><h2 id="s11">llama.cpp: limit prefill przy aktywnym decode</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">--prefill-budget-busy N dzieli długie prefill na kroki, gdy inne sesje już streamują odpowiedź. Planista preferuje krótsze zadania i po 8 pominięciach podnosi priorytet, aby nie głodzić długich.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Ma to ograniczać blokowanie decode podczas długich promptów, co ma znaczenie dla lokalnych agentów i wielosesyjnego API. Domyślnie funkcja jest wyłączona.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Demo na Strix Halo, brak danych na V100/SM70 i brak bezpośrednich liczb p95 TTFT / ITL dla PCIe.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Dotyczy dowolnych modeli z długim prefill; Qwen3.6/3.8 bez bezpośrednich pomiarów.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">batching</span><span class="tag">slot scheduling</span><span class="tag">prefill</span><span class="tag">ITL</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30992" target="_blank" rel="noopener noreferrer">PR #30992 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s12">
+      <div class="story-top"><span class="no">12</span><div class="headline"><div class="date">22-23.10, merge #30927 oraz #30663</div><h2 id="s12">llama.cpp: DFlash2 probabilistyczny scalony + fix Qwen3.8 Flash</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Naprawiono format przekazywania layer inputs do draftera DFlash dla qwen4exp (wcześniej abort przy pierwszym promptcie). 23.10 scalono probabilistyczny sampler DFlash2 z logiką verify/accept/reject.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Test Qwen3.8-27B na RTX 5090 raportuje przy temp=1,0 +4,20% tok/s względem starej metody; wyniki zależą od sampling temperature. To nie jest gwarantowany wzrost przy greedy.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak benchmarku V100. Sprawdzić, czy wybrany drafter i kernel DFlash2 w ogóle uruchamiają się na SM70.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Bezpośrednio Qwen3.8-27B i Qwen3.8-Flash-Next; brak potwierdzonych wyników Qwen3.6.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">speculative decoding</span><span class="tag">DFlash2</span><span class="tag">Qwen3.8</span><span class="tag">merge</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30663" target="_blank" rel="noopener noreferrer">DFlash2 #30663 <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/ggml-org/llama.cpp/pull/30927" target="_blank" rel="noopener noreferrer">Qwen4exp DFlash #30927 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story risk" aria-labelledby="s13">
+      <div class="story-top"><span class="no">13</span><div class="headline"><div class="date">23.10, PR #31019 otwarty 07:19 CEST</div><h2 id="s13">llama.cpp: CUDA MMVQ fp16 overflow w Q4_1/Q5_1/Q8_1</h2></div><span class="status">uważać na regresję</span></div>
+      <p class="lead">W ścieżce jednokolumnowego decode FAST_FP16 skale quantów mogą przepełnić FP16 (Inf/NaN). PR przenosi mnożenie skal Q4_1, Q5_1 i Q8_1 do FP32.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Test na RTX 3090 sm_86: 22/22 przechodzi z poprawką; po cofnięciu kodu MMVQ błędy w 8 przypadkach. Prefill MMQ korzysta już ze skalowania FP32.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Nie ma testu Volta; to potencjalna poprawka numeryczna dla wspólnej ścieżki CUDA, lecz nie wolno z tego wyprowadzać przyspieszenia.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Bezpośredni test reprodukcyjny NIE dotyczy Qwen3.6 ani 3.8; wpływ tylko dla modeli/quantów trafiających w ten kernel.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">CUDA</span><span class="tag">MMVQ</span><span class="tag">quantization</span><span class="tag">NaN</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/31019" target="_blank" rel="noopener noreferrer">PR #31019 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s14">
+      <div class="story-top"><span class="no">14</span><div class="headline"><div class="date">22.10, PR #31004 otwarty 23:41 CEST</div><h2 id="s14">llama.cpp: grafy CUDA indeksowane kształtem</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">Propozycja trzyma więcej skeszowanych CUDA Graph dla różnych kształtów pierwszych węzłów i usuwa mniej używane warianty zamiast thrashingu instancji grafu.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>W DFlash2-7 Qwen3.8-27B autor zmierzył +3,73% decode na GB300 i +5,23% na RTX PRO 6000 Blackwell; zwykłe decode zyskuje zaledwie ~0,15%.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Bez testu na V100. CUDA Graph działa na Volcie, ale wynik z Blackwell NIE przesądza o korzyści przy ciasnym VRAM/SM70.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Qwen3.8-27B bezpośrednio w benchmarku na nowych GPU; Qwen3.6 nieprzetestowany.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">CUDA graphs</span><span class="tag">DFlash2</span><span class="tag">Qwen3.8</span><span class="tag">PR</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/31004" target="_blank" rel="noopener noreferrer">PR #31004 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s15">
+      <div class="story-top"><span class="no">15</span><div class="headline"><div class="date">22.10, PR #30979 scalony 19:22 CEST</div><h2 id="s15">llama.cpp: MiniCPM-OCR 1.0 w MTMD</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Obsługa MiniCPM-OCR 1.0 wykorzystuje istniejący projektor i ścieżkę konwersji MiniCPM-V 4.6; nowy identyfikator model_type otwiera lokalne OCR.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Uwaga na API: transkrypcja trafia do bloku reasoning, więc trzeba podać --reasoning off albo reasoning_effort=none, inaczej content może być pusty.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak zweryfikowanych minimalnych/praktycznych VRAM, czasu OCR i kompilacji pod SM70 w opisie PR; nie gwarantować zgodności V100 bez testu.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Bez powiązania z Qwen3.6/Qwen3.8; to osobny model multimodalny.</dd></div>
+      </dl>
+      <div class="extra"><b>Dane wdrożeniowe:</b> Licencja checkpointu i komercyjne warunki użycia wymagają weryfikacji na karcie modelu; nie podano zmierzonego budżetu VRAM.</div>
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">OCR</span><span class="tag">multimodal</span><span class="tag">MiniCPM</span><span class="tag">do 32 GB?</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30979" target="_blank" rel="noopener noreferrer">PR #30979 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s16">
+      <div class="story-top"><span class="no">16</span><div class="headline"><div class="date">23.10, PR #30994 scalony 00:37 CEST</div><h2 id="s16">llama.cpp: real-time audio domyka committed audio po dekodowaniu</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Poprawiono endpoint realtime: complete dla committed audio jest wysyłane dopiero, gdy wszystkie odpowiadające wiersze zostały zdekodowane. FIFO markerów zapobiega łączeniu kolejnych segmentów przez wyścigi.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Ważne dla strumieniowego ASR i pipeline STT -&gt; LLM -&gt; TTS, bo pomieszane granice wypowiedzi psują kolejkowanie i interrupcje.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak benchmarku opóźnień TTFA, VAD, barge-in, duplex lub pomiaru na V100; to poprawka semantyki zdarzeń, nie pełna platforma live voice.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Nie ma specyficznego wpływu na Qwen3.6/3.8.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama.cpp</span><span class="tag">realtime API</span><span class="tag">audio</span><span class="tag">streaming</span><span class="tag">server</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ggml-org/llama.cpp/pull/30994" target="_blank" rel="noopener noreferrer">PR #30994 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story watch" aria-labelledby="s17">
+      <div class="story-top"><span class="no">17</span><div class="headline"><div class="date">22.10, commity w main 20:36-00:51 CEST</div><h2 id="s17">Ollama: Flint na Linux/Windows + Phonon TTS dla MLX</h2></div><span class="status">obserwować</span></div>
+      <p class="lead">Dodano obsługę Flint oraz poprawiono odpowiedzi z wyłączonym thinking. Flint to coding MoE 39,8B (2,5B aktywnych), licencja Apache-2.0. Równolegle rozwijano Phonon TTS (GA checkpoints, streaming) w runnerze MLX.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Flint ma quanty około 23 GB pliku, więc jedna karta 32 GB może zmieścić wagi przy ograniczonym kontekście, ale pełne 262K kontekstu nie musi się zmieścić; wynik i CUDA V100 niezweryfikowane. Phonon/MLX to Apple Silicon, nie NVIDIA.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak bezpośredniego benchmarku SM70 dla Flint i brak ścieżki Phonon TTS na V100 w tej aktualizacji.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Nie ma bezpośrednich zmian dla Qwen3.6/3.8.</dd></div>
+      </dl>
+      <div class="extra"><b>Dane wdrożeniowe:</b> Runtime: Ollama; Flint Q4 ma około 23 GB wag, lecz praktyczny narzut KV/cache zależy od długości kontekstu. Testy TTFA Phonon i przeniesienie na SM70: brak.</div>
+      <div class="story-bottom"><div class="tags"><span class="tag">Ollama</span><span class="tag">Flint 40B</span><span class="tag">MoE</span><span class="tag">TTS</span><span class="tag">Apache-2.0</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/ollama/ollama/commit/3295b3e96ba386219f4baa841cdbe402a04b13dc" target="_blank" rel="noopener noreferrer">Flint fix <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/ollama/ollama/pull/19227" target="_blank" rel="noopener noreferrer">Phonon GA <span aria-hidden="true">&#8599;</span></a><a href="https://ollama.com/library/flint" target="_blank" rel="noopener noreferrer">Flint modele <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s18">
+      <div class="story-top"><span class="no">18</span><div class="headline"><div class="date">22.10, PR #1035 scalony 20:27 CEST</div><h2 id="s18">audio.cpp: 470M Granite TurboCTC wielojęzyczny ASR</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Dodano ścieżkę nowego modelu Granite Speech 5.0 TurboCTC dla 7 języków (EN, FR, DE, ES, PT, IT, JA), z interpunkcją. Naprawiono też znaczniki czasowe strumienia przy 8/48 kHz.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>470M parametrów i CTC to ciekawa lekka alternatywa dla lokalnej transkrypcji; licencja Apache-2.0. Uwaga: aktualnie publikowany GGUF Q8_0 jest starszym checkpointem tylko EN, a parametr language w nowej ścieżce bywa ignorowany.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak liczbowego pomiaru VRAM/latencji oraz testu V100/SM70; rozmiar modelu sugeruje budżet zdecydowanie poniżej 32 GB, ale to nie jest walidacja.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Brak związku z Qwen3.6/3.8; pipeline STT może z nimi współpracować przez API.</dd></div>
+      </dl>
+      <div class="extra"><b>Dane wdrożeniowe:</b> Runtime: audio.cpp. Brak zmierzonej TTFA, opóźnienia końcowego i praktycznego VRAM w zgłoszeniu.</div>
+      <div class="story-bottom"><div class="tags"><span class="tag">audio.cpp</span><span class="tag">ASR</span><span class="tag">streaming</span><span class="tag">470M</span><span class="tag">Apache-2.0</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/0xShug0/audio.cpp/pull/1035" target="_blank" rel="noopener noreferrer">PR #1035 <span aria-hidden="true">&#8599;</span></a><a href="https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc" target="_blank" rel="noopener noreferrer">Karta modelu <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s19">
+      <div class="story-top"><span class="no">19</span><div class="headline"><div class="date">23.10, PR #1055 scalony 00:24 CEST</div><h2 id="s19">audio.cpp: Qwen3-TTS cuda_perf - krótszy czas syntezy</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Dodano sterowanie attention, spakowanymi projekcjami, zapisem KV i typem KV oraz jawny opt-in preset cuda_perf. Domyślny tryb mixed attention pozostał bez zmian.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Na RTX 5090, 1.7B Q8: CustomVoice warm RTF 0,0934 -&gt; 0,0684 (1,36x), VoiceDesign 0,1104 -&gt; 0,0702 (1,57x). Szczyt VRAM ~3,6-3,8 GiB. To dane jednej konfiguracji, nie benchmark V100.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Nie potwierdzono Volta/SM70, minimalnego VRAM, TTFA ani zachowania w pełnym live voice przy barge-in. Qwen3-TTS ma licencję Apache-2.0, ale konkretny checkpoint i warunki głosu należy sprawdzić.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>To Qwen3-TTS, NIE Qwen3.6 ani Qwen3.8 LLM. Brak wpływu na ich inferencję.</dd></div>
+      </dl>
+      <div class="extra"><b>Dane wdrożeniowe:</b> Runtime audio.cpp / GGUF Q8; według testu peak 3598-3792 MiB na RTX 5090. Wymagania SM70 i praktyczna latencja pierwszego audio: niezmierzone.</div>
+      <div class="story-bottom"><div class="tags"><span class="tag">audio.cpp</span><span class="tag">TTS</span><span class="tag">voice design</span><span class="tag">CUDA</span><span class="tag">Q8</span><span class="tag">Apache-2.0</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/0xShug0/audio.cpp/pull/1055" target="_blank" rel="noopener noreferrer">PR #1055 / tabela RTF <span aria-hidden="true">&#8599;</span></a><a href="https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base" target="_blank" rel="noopener noreferrer">Modele Qwen3-TTS <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s20">
+      <div class="story-top"><span class="no">20</span><div class="headline"><div class="date">22.10, PR #1050 scalony 17:15 CEST</div><h2 id="s20">audio.cpp: Kitten TTS 2 z CPU TQ2_1 (2,125 bit/weight)</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Wprowadzono opt-in ternary format TQ2_1 i kernele CPU AVX2/VNNI, z konwerterem dla Kitten TTS 2. Nie ma kerneli CUDA/Vulkan/Metal dla tego typu.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Ryzen 9 7900X / 8 wątków: plik Q4 2,458 GiB vs TQ2_1 2,068 GiB, peak RAM 6330 -&gt; 5981 MiB, warm RTF 1,491 -&gt; 1,239 (1,20x). To nadal około 1,24 sekundy obliczeń na sekundę audio, nie real-time.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Droga CPU/hybrid; brak przyspieszenia VRAM V100. Licencja checkpointu i ograniczenia komercyjne: niepotwierdzone w PR.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Bez związku z Qwen3.6/3.8.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">audio.cpp</span><span class="tag">TTS</span><span class="tag">CPU</span><span class="tag">ternary</span><span class="tag">TQ2_1</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/0xShug0/audio.cpp/pull/1050" target="_blank" rel="noopener noreferrer">PR #1050 / benchmark CPU <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story risk" aria-labelledby="s21">
+      <div class="story-top"><span class="no">21</span><div class="headline"><div class="date">22-23.10, merge #6278 i issue #6459</div><h2 id="s21">OpenViking: privacy sessions + ryzyko utraty zapisu async</h2></div><span class="status">uważać na regresję</span></div>
+      <p class="lead">Scalono automatyczne wykrywanie/wstawianie placeholderów prywatności w sesjach i przywracanie wartości podczas odczytu. Jednocześnie zgłoszono, że konflikt dwóch rejestracji tej samej wartości potrafi odrzucić zapis, a klient async wait=false nie dostaje błędu.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Zgłaszający utracił widoczność 20 notatek przez dwa dni. Funkcje privacy warto wdrażać dopiero po testach czy wpis istnieje w find/search oraz czy zadania async sygnalizują błędy.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak związku z V100; istotne dla niezawodności lokalnego magazynu pamięci agenta.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Brak bezpośredniego wpływu na Qwen3.6/3.8.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">OpenViking</span><span class="tag">privacy</span><span class="tag">data loss</span><span class="tag">async writes</span><span class="tag">regresja</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/volcengine/OpenViking/pull/6278" target="_blank" rel="noopener noreferrer">Merge privacy #6278 <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/volcengine/OpenViking/issues/6459" target="_blank" rel="noopener noreferrer">Issue silent drop #6459 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s22">
+      <div class="story-top"><span class="no">22</span><div class="headline"><div class="date">23.10, release 07:28 CEST</div><h2 id="s22">Hermes Agent v0.22.5: delegacja modeli i bezpieczniejszy update</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Wydano v0.22.5 (81 PR od 0.22.4). Wśród zmian: podmienialne backendy delegacji subagentów według model map/profilu, hermes import-agent, migracja z OpenClaw i bardziej ostrożna logika hermes update przy odmowie release.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Ważne dla self-hosted stacków z kilkoma lokalnymi modelami i wieloma profilami agenta. Release notes są skrótowe; funkcje należy sprawdzić end-to-end z lokalnym OpenAI-compatible serwerem.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak bezpośredniego benchmarku V100. Wydajność zależy od podłączonego runtime; nie zakładać korzyści decode.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Qwen3.6/Qwen3.8 mogą być routowane przez zgodny endpoint, ale nie podano testów tych modeli.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">Hermes Agent</span><span class="tag">release</span><span class="tag">routing</span><span class="tag">self-hosted</span><span class="tag">agenci</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5" target="_blank" rel="noopener noreferrer">Hermes v0.22.5 <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/volcengine/OpenViking/commit/e63eb0d84d243b146da5f43b3b111a5a9ea02490" target="_blank" rel="noopener noreferrer">OpenViking Hermes recall fix <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article>
+<article class="story test" aria-labelledby="s23">
+      <div class="story-top"><span class="no">23</span><div class="headline"><div class="date">22.10, release 22:11 CEST</div><h2 id="s23">llama-swap v266: reverse proxy, audio voices i limity</h2></div><span class="status">warto testować</span></div>
+      <p class="lead">Nowe wydanie poprawia UI za reverse proxy z prefiksem URL, dodaje konfigurowalny limit body requestów oraz manualne values dla /v1/audio/voices; zaktualizowano zależności bezpieczeństwa.</p>
+      <dl class="facts">
+        <div><dt>Dlaczego to ważne</dt><dd>Praktyczne dla jednego hosta lokalnych runtime: ułatwia ruch przez nginx/Caddy i routowanie głosów TTS bez tworzenia osobnego frontendu.</dd></div>
+        <div><dt>V100 / Volta / SM70</dt><dd>Brak zmian kerneli/SM70 i brak benchmarków V100. Uwaga: większy request size podnosi ryzyko wyczerpania RAM przy multimodalnych payloadach.</dd></div>
+        <div><dt>Qwen3.6 / Qwen3.8</dt><dd>Brak specyficznego wpływu na Qwen3.6/Qwen3.8.</dd></div>
+      </dl>
+      
+      <div class="story-bottom"><div class="tags"><span class="tag">llama-swap</span><span class="tag">self-hosting</span><span class="tag">proxy</span><span class="tag">TTS</span><span class="tag">release</span></div><div class="sources"><span class="srclabel">Źródła</span><a href="https://github.com/mostlygeek/llama-swap/releases/tag/v266" target="_blank" rel="noopener noreferrer">Release v266 <span aria-hidden="true">&#8599;</span></a></div></div>
+    </article></main>
+<section class="todo"><h2>Dzisiaj warto zrobić</h2><ol>
+<li><b>V100 / ik_llama:</b> porównać main i commit 298505b dla Q3_K_M i Q2_K (pp128, tg128, tg512); zmierzyć VRAM i rzeczywiste token/s na pojedynczej V100, nie na Titan V.</li>
+<li><b>llama.cpp multislot:</b> odtworzyć -kvu --cache-ram -np 2, dwa prompty przekraczające łącznie limit KV; zapisać liczbę reused tokens, TTFT oraz pauzy przy zamianie slotów. Dopiero potem testować PR #30997/#30970.</li>
+<li><b>NInfer:</b> uruchomić test KV reservation (#419) na artefakcie Qwen3.8 INT8/NVFP4 i sprawdzić odzyskiwanie prefix cache; nie klasyfikować jako awarii produkcyjnego serving bez reprodukcji.</li>
+<li><b>MoE na jednej V100:</b> ustawić A/B dla Qwen3.8-Flash-Next (cache ekspertów 4/8/16 GiB, CPU share, context 8/32K) i osobno policzyć prefill, decode, RAM RSS, PCIe bytes/s, p95 ITL. Nie mieszać wyników z inną liczbą GPU.</li>
+<li><b>OpenViking:</b> do czasu naprawy #6459 testować read-after-write przy async zapisach z privacy; logować ID zadań i sprawdzać, czy każdy wpis można odzyskać z wyszukiwarki.</li>
+<li><b>Małe audio:</b> uruchomić Granite TurboCTC na poligonie 7 języków i Qwen3-TTS cuda_perf z pomiarem TTFA i peak VRAM; nie zakładać wyników RTX 5090 na V100.</li>
+</ol></section>
+<section class="method"><h2>Metoda i ograniczenia</h2><p>Zakres to commity <strong>scalone/wprowadzone</strong>, PR-y <strong>otwarte</strong>, zgłoszenia oraz wydania z ostatnich 24 godzin. Starsza funkcja mogła zostać omówiona tylko wtedy, gdy w tym oknie pojawiła się nowa poprawka lub potwierdzenie. Stan otwarty/scalony odpowiada chwili przeglądu.</p><p><strong>NInfer-V100:</strong> w obserwowanym oknie nie znaleziono nowych commitów głównego upstream ani wybranych forków V100; nowy issue #419 jest sygnałem o stanie KV. <strong>Qwen3.6/Qwen3.8:</strong> rodzinę modelu wymieniono jako potwierdzoną wyłącznie, gdy wymienia ją źródło. <strong>Multimodal:</strong> brak publicznego pomiaru VRAM, licencji lub TTFA oznaczono jako brak danych, a nie oszacowano go.</p><p>Offline działają layout, CSS i przełącznik motywu. Linki do zewnętrznych źródeł wymagają połączenia przy otwieraniu.</p></section>
+<footer class="foot">Local AI Radar - raport sesyjny, bez zmian w repozytorium i bez automatycznej publikacji</footer>
+</div><script>(function(){var r=document.documentElement,b=document.getElementById('theme-toggle'),k='local-ai-radar-theme';function set(v){r.setAttribute('data-theme',v);b.textContent=v==='dark'?'Jasny motyw':'Ciemny motyw';b.setAttribute('aria-pressed',String(v==='light'))}try{set(localStorage.getItem(k)==='light'?'light':'dark')}catch(e){set('dark')}b.addEventListener('click',function(){var v=r.getAttribute('data-theme')==='dark'?'light':'dark';set(v);try{localStorage.setItem(k,v)}catch(e){}})})();</script>
+</body></html>
