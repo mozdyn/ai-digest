@@ -6,7 +6,11 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 02 Nov 2026 10:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 15:46:00 +0100</lastBuildDate>
+<item><title>Local AI Daily Radar — 2026-11-06</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-06.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-06.html</guid><pubDate>Fri, 06 Nov 2026 08:02:00 +0100</pubDate><description>32 tematy: llama.cpp prompt RAM cache, CUDA MoE, Project Maya V100, audio.cpp i OpenViking.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
+<item><title>Local AI Daily Radar — 2026-11-05</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-05.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-05.html</guid><pubDate>Thu, 05 Nov 2026 07:55:00 +0100</pubDate><description>28 tematów: llama.cpp 0.9.0, unified KV, CUDA MoE, Project Maya, audio.cpp i OpenViking.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
+<item><title>Local AI Daily Radar — 2026-11-04</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-04.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-04.html</guid><pubDate>Wed, 04 Nov 2026 08:02:00 +0100</pubDate><description>27 tematów: llama.cpp KV RAM, Project Maya V100, OpenViking i PocketTTS.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
+<item><title>Local AI Daily Radar — 2026-11-03</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-03.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-03.html</guid><pubDate>Tue, 03 Nov 2026 07:55:00 +0100</pubDate><description>21 tematów: llama.cpp unified KV, V100 flash attention, ik_llama.cpp i realtime audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
 
     <item>
       <title>Local AI Weekly — 2026-W44</title>
