@@ -6,7 +6,32 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 06 Nov 2026 15:46:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:34:00 +0100</lastBuildDate>
+
+    <item>
+      <title>Local AI Weekly — 2026-W46</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W46.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/weekly/2026-W46.html</guid>
+      <pubDate>Sat, 14 Nov 2026 09:00:00 +0100</pubDate>
+      <description><![CDATA[
+        <p>20 tematów: V100/SM70, llama.cpp FlashAttention/FP8 KV/speculative decoding, ninfer-v100, Hermes/OpenViking oraz lokalne multimodalne modele i narzędzia do 32 GB VRAM.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/weekly/2026-W46.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>WEEKLY</category><category>LOCAL-AI</category><category>LLAMA.CPP</category><category>NINFER-V100</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.6</category><category>QWEN3.8</category><category>MTP</category><category>KV-CACHE</category><category>AGENTS</category><category>MEMORY</category><category>MULTIMODAL</category>
+    </item>
+
+    <item>
+      <title>Local AI Weekly — 2026-W45</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W45.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/weekly/2026-W45.html</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description><![CDATA[
+        <p>20 tematów: V100/SM70, ninfer-v100 v1.7.2, llama.cpp unified KV/MTP, Strata, Hermes 0.23.0, OpenViking 0.5.3 i multimodal do 32 GB VRAM.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/weekly/2026-W45.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>WEEKLY</category><category>LOCAL-AI</category><category>LLAMA.CPP</category><category>NINFER-V100</category><category>CUDA</category><category>V100</category><category>SM70</category><category>QWEN3.8</category><category>MTP</category><category>UNIFIED-KV</category><category>AGENTS</category><category>MEMORY</category><category>MULTIMODAL</category>
+    </item>
+
 <item><title>Local AI Daily Radar — 2026-11-06</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-06.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-06.html</guid><pubDate>Fri, 06 Nov 2026 08:02:00 +0100</pubDate><description>32 tematy: llama.cpp prompt RAM cache, CUDA MoE, Project Maya V100, audio.cpp i OpenViking.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
 <item><title>Local AI Daily Radar — 2026-11-05</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-05.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-05.html</guid><pubDate>Thu, 05 Nov 2026 07:55:00 +0100</pubDate><description>28 tematów: llama.cpp 0.9.0, unified KV, CUDA MoE, Project Maya, audio.cpp i OpenViking.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
 <item><title>Local AI Daily Radar — 2026-11-04</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-04.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-04.html</guid><pubDate>Wed, 04 Nov 2026 08:02:00 +0100</pubDate><description>27 tematów: llama.cpp KV RAM, Project Maya V100, OpenViking i PocketTTS.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
