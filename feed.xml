@@ -6,7 +6,19 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 20 Nov 2026 12:47:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:07:00 +0100</lastBuildDate>
+
+    <item>
+      <title>Local AI Weekly — 2026-W47</title>
+      <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W47.html</link>
+      <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/weekly/2026-W47.html</guid>
+      <pubDate>Sat, 21 Nov 2026 12:07:00 +0100</pubDate>
+      <description><![CDATA[
+        <p>20 tematów: llama.cpp CUDA MoE na V100, ninfer-v100 SM70 i benchmarki, Hermes/OpenViking, modele i multimodal do 32 GB VRAM.</p>
+        <p><a href="https://mozdyn.github.io/ai-digest/reports/weekly/2026-W47.html">Otwórz pełny raport</a></p>
+      ]]></description>
+      <category>WEEKLY</category><category>LOCAL-AI</category><category>V100</category><category>SM70</category><category>LLAMA.CPP</category><category>NINFER-V100</category><category>CUDA</category><category>QWEN3.8</category><category>MTP</category><category>AGENTS</category><category>MEMORY</category><category>MULTIMODAL</category>
+    </item>
 
     <item><title>Local AI Daily Radar — 2026-11-20</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-20.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-20.html</guid><pubDate>Fri, 20 Nov 2026 08:03:00 +0100</pubDate><description>24 tematy: llama.cpp MoE i prompt cache CPU→GPU, 1Cat-vLLM Qwen3.8, NInfer V100, Strata-V100 i local audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
 <item><title>Local AI Daily Radar — 2026-11-19</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-19.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-19.html</guid><pubDate>Thu, 19 Nov 2026 08:03:00 +0100</pubDate><description>22 tematy: llama.cpp unified KV i Qwen3.8 multislot, ik_llama.cpp CUDA, Hermes/OpenViking oraz lokalne audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
