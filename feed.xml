@@ -6,9 +6,11 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 21 Nov 2026 12:07:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 10:39:00 +0100</lastBuildDate>
 
-    <item>
+    <item><title>Local AI Daily Radar — 2026-11-22</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-22.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-22.html</guid><pubDate>Sun, 22 Nov 2026 07:58:00 +0100</pubDate><description>22 tematy: 1Cat-vLLM SM70 prefill Qwen3.8, MTP, llama.cpp unified KV, Hibiki i lokalni agenci.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
+<item><title>Local AI Daily Radar — 2026-11-21</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-21.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-21.html</guid><pubDate>Sat, 21 Nov 2026 08:04:00 +0100</pubDate><description>18 tematów: NInfer-V100 regresja wielosesyjna, llama.cpp QSA i KV cache, ik_llama.cpp CUDA oraz local audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
+<item>
       <title>Local AI Weekly — 2026-W47</title>
       <link>https://mozdyn.github.io/ai-digest/reports/weekly/2026-W47.html</link>
       <guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/weekly/2026-W47.html</guid>
