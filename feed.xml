@@ -6,7 +6,9 @@
     <description>Codzienna prasówka o local AI, self-hostingu, V100/SM70, llama.cpp, agentach i modelach lokalnych.</description>
     <language>pl-PL</language>
     <atom:link href="https://mozdyn.github.io/ai-digest/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 24 Nov 2026 08:37:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 14:15:00 +0100</lastBuildDate>
+
+    <item><title>Local AI Daily Radar — 2026-11-26</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-26.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-26.html</guid><pubDate>Thu, 26 Nov 2026 14:15:00 +0100</pubDate><description>21 tematów: NInfer-3090 v0.20.0 na V100, llama.cpp-v100 GEMV, Project Maya, Strata expert parallelism, KV cache i lokalne audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
 
     <item><title>Local AI Daily Radar — 2026-11-24</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-24.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-24.html</guid><pubDate>Tue, 24 Nov 2026 08:01:00 +0100</pubDate><description>18 tematów: llama.cpp NVFP4 na V100, GDN replay, unified KV, NInfer, OpenViking i local audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
 <item><title>Local AI Daily Radar — 2026-11-23</title><link>https://mozdyn.github.io/ai-digest/reports/daily/2026-11-23.html</link><guid isPermaLink="true">https://mozdyn.github.io/ai-digest/reports/daily/2026-11-23.html</guid><pubDate>Mon, 23 Nov 2026 07:56:00 +0100</pubDate><description>21 tematów: llama.cpp regresja V100 Qwen3.8, 1Cat-vLLM SM70, NInfer-V100, ik_llama.cpp i lokalne audio.</description><category>LOCAL-AI</category><category>V100</category><category>SM70</category></item>
